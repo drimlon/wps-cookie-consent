@@ -7,7 +7,6 @@
  * Author: WPS
  * Author URI: https://wps.sk/
  * Text Domain: wps-cookie-consent
- * Domain Path: /languages
  * License: GPLv2
  *
  * @author WPS <info@wps.sk>
