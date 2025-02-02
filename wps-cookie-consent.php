@@ -41,7 +41,6 @@ function setup_constants(): void {
     if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_FILE' ) ) {
         define( 'WPS\WP\CookieConsent\PLUGIN_FILE', __FILE__ );
     }
-}
 
 /**
  * Set an option when the plugin is activated.
