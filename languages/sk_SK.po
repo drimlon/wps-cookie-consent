@@ -1,9 +1,8 @@
-# Copyright (C) 2024 Pressidium
+# Copyright (C) 2024 WPS
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
-"Project-Id-Version: Pressidium Cookie Consent 1.5.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pressidium-cookie-"
+"Project-Id-Version: WPS Cookie Consent 1.5.0\n"
 "consent\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12,17 +11,17 @@ msgstr ""
 "POT-Creation-Date: 2024-07-30T02:54:55+00:00\n"
 "PO-Revision-Date: 2025-01-28 19:27+0100\n"
 "X-Generator: Poedit 2.2\n"
-"X-Domain: pressidium-cookie-consent\n"
+"X-Domain: wps-cookie-consent\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "Language: sk_SK\n"
 
 #. Plugin Name of the plugin
-msgid "Pressidium Cookie Consent"
+msgid "WPS Cookie Consent"
 msgstr "Cookie lišta"
 
 #. Plugin URI of the plugin
-msgid "https://github.com/pressidium/pressidium-cookie-consent/"
+msgid "https://github.com/drimlon/wps-cookie-consent/"
 msgstr ""
 
 #. Description of the plugin
@@ -35,11 +34,11 @@ msgstr ""
 
 #. Author of the plugin
 #: public/bundle.admin.js:76 src/admin/icons.js:5
-msgid "Pressidium"
+msgid "WPS"
 msgstr "Cookie lišta"
 
 #. Author URI of the plugin
-msgid "https://pressidium.com/"
+msgid "https://wps.sk/"
 msgstr "htpps://wps.sk/"
 
 #: includes/Admin/Settings/Settings_API.php:812
@@ -87,7 +86,7 @@ msgstr "Pomôžte nám zlepšiť sa!"
 #: includes/Feedback/Feedback.php:111
 msgid ""
 "We value your feedback. Please let us know why youâ€™re deactivating "
-"Pressidium Cookie Consent."
+"WPS Cookie Consent."
 msgstr ""
 "Ceníme si vašu spätnú väzbu. Prosím, dajte nám vedieť, prečo deaktivujete "
 "Cookie lištu."
@@ -877,8 +876,8 @@ msgstr ""
 "Kliknite na položku <strong>Hľadať v galérii</strong> v časti Šablóny značiek"
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:93
-msgid "Search for <strong>Pressidium Cookie Consent</strong>"
-msgstr "Vyhľadajte <strong>Pressidium Cookie Consent</strong>"
+msgid "Search for <strong>WPS Cookie Consent</strong>"
+msgstr "Vyhľadajte <strong>WPS Cookie Consent</strong>"
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:103
 msgid "Select it and click <strong>Add to workspace</strong>"
@@ -971,10 +970,10 @@ msgstr ""
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:329
 msgid ""
-"Select the <strong>Pressidium Cookie Consent</strong> template, under the "
+"Select the <strong>WPS Cookie Consent</strong> template, under the "
 "Custom section"
 msgstr ""
-"V sekcii Vlastné vyberte šablónu <strong>Pressidium Cookie Consent</strong>"
+"V sekcii Vlastné vyberte šablónu <strong>WPS Cookie Consent</strong>"
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:337
 msgid "Configure the tag as needed"
@@ -1002,8 +1001,8 @@ msgid "Click <strong>Submit</strong> to submit your changes"
 msgstr "Kliknutím na tlačidlo <strong>Odoslať</strong> odošlite zmeny"
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:393
-msgid "Configuring the Pressidium Cookie Consent tag"
-msgstr "Konfigurácia značky Pressidium Cookie Consent"
+msgid "Configuring the WPS Cookie Consent tag"
+msgstr "Konfigurácia značky WPS Cookie Consent"
 
 #: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:399
 msgid "Google Tag Manager configuring a tag screenshot"
@@ -1518,12 +1517,12 @@ msgid "Copy to clipboard"
 msgstr "Kopírovať do schránky"
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:70
-msgid "About Pressidium Cookie Consent"
+msgid "About WPS Cookie Consent"
 msgstr "O Cookie lište"
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:82
 msgid ""
-"Pressidium Cookie Consent makes it easy to add a stylish, customizable "
+"WPS Cookie Consent makes it easy to add a stylish, customizable "
 "cookie consent banner to your website and conditionally load third-party "
 "scripts (analytics, performance, targeting, etc.) based on the user-selected "
 "preferences to help you comply with EU GDPR cookie law, CCPA, and similar "
@@ -1727,11 +1726,11 @@ msgstr ""
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:309
 msgid ""
-"WordPress.org support forum: You can open a topic in the <a>Pressidium "
+"WordPress.org support forum: You can open a topic in the <a>WPS "
 "Cookie Consent support forum</a>."
 msgstr ""
 "Fórum podpory WordPress.org: Tému môžete otvoriť vo <a>fóre podpory pre "
-"súhlas so súbormi cookie Pressidium</a>."
+"súhlas so súbormi cookie WPS</a>."
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:327
 msgid ""
@@ -1750,25 +1749,25 @@ msgstr ""
 "výhody ostatným používateľom, ktorí môžu mať podobné otázky."
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:352
-msgid "About Pressidium"
-msgstr "O Pressidium"
+msgid "About WPS"
+msgstr "O WPS"
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:366
 msgid ""
-"Since 2014, <a>Pressidium</a> has been providing the ultimate in high "
+"Since 2014, <a>WPS</a> has been providing the ultimate in high "
 "availability, enterprise-class hosting which is trusted by small businesses "
 "through to Fortune 500â€™s."
 msgstr ""
-"Od roku 2014 <a>Pressidium</a> poskytuje špičkový hosting podnikovej triedy "
+"Od roku 2014 <a>WPS</a> poskytuje špičkový hosting podnikovej triedy "
 "s vysokou dostupnosťou, ktorému dôverujú malé podniky až po rebríčky Fortune "
 "500."
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:384
 msgid ""
-"<a>Pressidium N-Tier architecture</a> ensures reliability and security, "
+"<a>WPS N-Tier architecture</a> ensures reliability and security, "
 "setting new standards in WordPress hosting."
 msgstr ""
-"<a>Architektúra Pressidium N-Tier</a> zaisťuje spoľahlivosť a bezpečnosť a "
+"<a>Architektúra WPS N-Tier</a> zaisťuje spoľahlivosť a bezpečnosť a "
 "nastavuje nové štandardy v hostingu WordPress."
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:402
@@ -1793,9 +1792,9 @@ msgstr ""
 
 #: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:429
 msgid ""
-"Pressidium. Enjoy 14-days of superior WordPress hosting for free! Learn more."
+"WPS. Enjoy 14-days of superior WordPress hosting for free! Learn more."
 msgstr ""
-"Pressídium. Užite si 14 dní špičkového hostingu WordPress zadarmo! Zistite "
+"WPS. Užite si 14 dní špičkového hostingu WordPress zadarmo! Zistite "
 "viac."
 
 #: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:113
