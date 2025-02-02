@@ -18,8 +18,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/wps/wps-cookie-consent/issues",
-        "source": "https://github.com/wps/wps-cookie-consent"
+        "issues": "https://github.com/drimlon/wps-cookie-consent/issues",
+        "source": "https://github.com/drimlon/wps-cookie-consent"
     },
     "require": {
         "php": ">=7.4"
