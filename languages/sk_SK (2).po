@@ -1,0 +1,1941 @@
+# Copyright (C) 2024 Pressidium
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pressidium Cookie Consent 1.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pressidium-cookie-"
+"consent\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-30T02:54:55+00:00\n"
+"PO-Revision-Date: 2025-01-28 19:27+0100\n"
+"X-Generator: Poedit 2.2\n"
+"X-Domain: pressidium-cookie-consent\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Language: sk_SK\n"
+
+#. Plugin Name of the plugin
+msgid "Pressidium Cookie Consent"
+msgstr "Cookie lišta"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/pressidium/pressidium-cookie-consent/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Lightweight, user-friendly and customizable cookie consent banner to help "
+"you comply with the EU GDPR cookie law and CCPA regulations."
+msgstr ""
+"Jednoduchý a prispôsobiteľný banner súhlasu so súbormi cookie, ktorý vám "
+"pomôže dodržiavať zákon EÚ o súboroch cookie GDPR a nariadenia CCPA."
+
+#. Author of the plugin
+#: public/bundle.admin.js:76 src/admin/icons.js:5
+msgid "Pressidium"
+msgstr "Cookie lišta"
+
+#. Author URI of the plugin
+msgid "https://pressidium.com/"
+msgstr "htpps://wps.sk/"
+
+#: includes/Admin/Settings/Settings_API.php:812
+#: includes/Admin/Settings/Settings_API.php:879
+#: includes/Admin/Settings/Settings_API.php:911
+#: includes/Admin/Settings/Settings_API.php:943
+#: includes/Admin/Settings/Settings_API.php:972
+#: includes/Admin/Settings/Settings_API.php:1062
+#: includes/Admin/Settings/Settings_API.php:1109
+#: includes/Feedback/Feedback.php:137
+msgid "Invalid nonce."
+msgstr "Nateraz neplatné."
+
+#: includes/Admin/Settings/Settings_API.php:1003
+msgid "Consent recording is disabled."
+msgstr "Zanznamenávanie súhlasu je zakázané."
+
+#: includes/Admin/Settings/Settings_Page.php:65
+#: includes/Admin/Settings/Settings_Page.php:74
+msgid "Cookie Consent"
+msgstr "Súhlas so súbormi cookie"
+
+#: includes/Admin/Settings/Settings_Page.php:94
+msgid "Adjust your cookie consent preferences."
+msgstr "Upravte predvoľby súhlasu so súbormi cookie."
+
+#. translators: 1: Developer name, 2: Link to the docs.
+#: includes/Admin/Settings/Settings_Page.php:207
+msgid "Developed by %1$s | For more information, read the %2$s."
+msgstr "Vývojár %1$s | Ďalšie informácie nájdete v %2$s."
+
+#: includes/Admin/Settings/Settings_Page.php:217
+msgid "documentation"
+msgstr "dokumentácia"
+
+#. translators: Plugin version.
+#: includes/Admin/Settings/Settings_Page.php:238
+msgid "Version %s"
+msgstr "Verzia %s"
+
+#: includes/Feedback/Feedback.php:109
+msgid "Help us improve!"
+msgstr "Pomôžte nám zlepšiť sa!"
+
+#: includes/Feedback/Feedback.php:111
+msgid ""
+"We value your feedback. Please let us know why youâ€™re deactivating "
+"Pressidium Cookie Consent."
+msgstr ""
+"Ceníme si vašu spätnú väzbu. Prosím, dajte nám vedieť, prečo deaktivujete "
+"Cookie lištu."
+
+#: includes/Feedback/Feedback_API.php:75 includes/Feedback/Feedback_API.php:83
+msgid "Unknown error"
+msgstr "Neznáma chyba"
+
+#: public/bundle.admin.js:3 src/admin/components/ExportSettingsModal.js:18
+msgid "Export settings?"
+msgstr "Exportovať nastavenia?"
+
+#: public/bundle.admin.js:3 src/admin/components/ExportSettingsModal.js:24
+msgid "You have unsaved changes."
+msgstr "Máte neuložené zmeny."
+
+#: public/bundle.admin.js:3 src/admin/components/ExportSettingsModal.js:27
+msgid "Those changes won't be exported. Are you sure you want to proceed?"
+msgstr "Tieto zmeny nebudú exportované. Naozaj chcete pokračovať?"
+
+#: public/bundle.admin.js:3 public/bundle.admin.js:76 public/bundle.admin.js:89
+#: public/bundle.admin.js:99 public/bundle.admin.js:104
+#: src/admin/components/ClearLogsModal.js:40
+#: src/admin/components/ClearRecordsModal.js:40
+#: src/admin/components/ExportSettingsModal.js:35
+#: src/admin/components/NewLanguageModal.js:48
+#: src/admin/components/NewRegionModal.js:161
+#: src/admin/components/ResetSettingsModal.js:40
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: public/bundle.admin.js:3 src/admin/components/ExportSettingsModal.js:46
+msgid "Export anyway"
+msgstr "Aj tak exportovať"
+
+#: public/bundle.admin.js:3 src/admin/components/ResetSettingsModal.js:18
+msgid "Reset settings?"
+msgstr "Obnoviť nastavenia?"
+
+#: public/bundle.admin.js:3 public/bundle.admin.js:99
+#: public/bundle.admin.js:104 src/admin/components/ClearLogsModal.js:24
+#: src/admin/components/ClearRecordsModal.js:24
+#: src/admin/components/ResetSettingsModal.js:24
+msgid "This action cannot be undone."
+msgstr "Túto akciu nie je možné vrátiť späť."
+
+#: public/bundle.admin.js:3 src/admin/components/ResetSettingsModal.js:28
+msgid ""
+"You are about to reset all settings to the default values. Are you sure you "
+"want to proceed?"
+msgstr ""
+"Chystáte sa obnoviť všetky nastavenia na predvolené hodnoty. Naozaj chcete "
+"pokračovať?"
+
+#: public/bundle.admin.js:3 src/admin/components/ResetSettingsModal.js:52
+msgid "Reset settings"
+msgstr "Obnoviť nastavenia"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:143
+msgid "Save"
+msgstr "Uložiť"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:153
+msgid "Preview Consent"
+msgstr "Ukážka súhlasu"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:163
+msgid "Preview Settings"
+msgstr "Ukážka nastavení"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:173
+msgid "Preview Floating Button"
+msgstr "Ukážka plávajúceho tlačidla"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:187
+msgid "Export Settings"
+msgstr "Exportovať nastavenia"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:203
+msgid "Import Settings"
+msgstr "Importovať nastavenia"
+
+#: public/bundle.admin.js:7 src/admin/components/Footer.js:214
+msgid "Reset Settings"
+msgstr "Obnoviť nastavenia"
+
+#: public/bundle.admin.js:15 src/admin/components/ColorControl.js:26
+msgid "Color"
+msgstr "Farba"
+
+#: public/bundle.admin.js:15 src/admin/themes/index.js:11
+msgid "Light"
+msgstr "Svetlá"
+
+#: public/bundle.admin.js:15 src/admin/themes/index.js:16
+msgid "Dark Blue"
+msgstr "Tmavo modrá"
+
+#: public/bundle.admin.js:15 src/admin/themes/index.js:21
+msgid "Dark Turqoise"
+msgstr "Tmavo tyrkysová"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:95
+msgid "Configuration"
+msgstr "konfigurácia"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:101
+msgid "Autorun"
+msgstr "Autoštart"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:103
+msgid "Will show the cookie consent as soon as possible"
+msgstr "Čo najskôr ukáže súhlas so súbormi cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:104
+msgid "You will have to manually call the `.show()` method"
+msgstr "Budete musieť manuálne zavolať metódu `.show()`"
+
+#: public/bundle.admin.js:15 public/bundle.admin.js:106
+#: src/admin/components/tabs/AboutTab.js:151
+#: src/admin/components/tabs/GeneralTab.js:112
+msgid "Force consent"
+msgstr "Vynútiť súhlas"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:114
+msgid "Page navigation will be blocked until user action"
+msgstr "Navigácia na stránke bude zablokovaná až do akcie používateľa"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:115
+msgid "Users will be able to navigate without needing to consent first"
+msgstr ""
+"Používatelia budú môcť prehliadať bez toho, aby museli najprv udeliť súhlas"
+
+#: public/bundle.admin.js:15 public/bundle.admin.js:106
+#: src/admin/components/tabs/AboutTab.js:142
+#: src/admin/components/tabs/GeneralTab.js:123
+msgid "Auto-clear cookies"
+msgstr "Automaticky vymazať súbory cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:125
+msgid ""
+"Cookies will be deleted automatically when user opts-out of a specific "
+"category inside cookie settings"
+msgstr ""
+"Súbory cookie sa automaticky vymažú, keď sa používateľ v nastaveniach "
+"súborov cookie odhlási z určitej kategórie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:126
+msgid "Cookies will have to be deleted manually"
+msgstr "Súbory cookie bude potrebné odstrániť ručne"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:134
+msgid "Page scripts"
+msgstr "Skripty stránky"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:136
+msgid "Will manage existing third-party script tags"
+msgstr "Bude spravovať existujúce značky skriptov tretích strán"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:137
+msgid "Won't manage existing third-party script tags"
+msgstr "Nebude spravovať existujúce značky skriptov tretích strán"
+
+#: public/bundle.admin.js:15 public/bundle.admin.js:106
+#: src/admin/components/tabs/AboutTab.js:178
+#: src/admin/components/tabs/GeneralTab.js:145
+msgid "Hide from bots"
+msgstr "Skryť pred botmi"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:147
+msgid "Won't run when a bot/crawler/webdriver is detected"
+msgstr "Nespustí sa, keď sa zistí bot/crawler/webdriver"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:148
+msgid "Will always run, even when a bot/crawler/webdriver is detected"
+msgstr "Spustí sa vždy, aj keď sa zistí bot/crawler/webdriver"
+
+#: public/bundle.admin.js:15 public/bundle.admin.js:106
+#: src/admin/components/tabs/AboutTab.js:160
+#: src/admin/components/tabs/GeneralTab.js:156
+msgid "Re-consent"
+msgstr "Opätovný súhlas"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:158
+msgid "Will ask users to â€œre-consentâ€ when a cookies list changes"
+msgstr ""
+"Keď sa zmení zoznam súborov cookie, požiada používateľov o „opätovný súhlas“."
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:159
+msgid "Won't ask users for consent more than once"
+msgstr "Nebude od používateľov žiadať súhlas viac ako raz"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:167
+msgid "Record consents"
+msgstr "Zaznamenajte súhlasy"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:169
+msgid ""
+"Will record user consents to be able to provide proof of consent for "
+"auditing purposes"
+msgstr ""
+"Zaznamená súhlasy používateľov, aby bolo možné poskytnúť dôkaz o súhlase na "
+"účely auditu"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:170
+msgid "Won't record any user consents"
+msgstr "Nebudú zaznamenávať žiadne súhlasy používateľov"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:178
+msgid "Hide empty categories"
+msgstr "Skryť prázdne kategórie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:180
+msgid "Will hide a cookie category if it has no cookies"
+msgstr "Skryje kategóriu súborov cookie, ak nemá žiadne súbory cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:181
+msgid "Won't hide any cookie categories"
+msgstr "Neskryje žiadne kategórie súborov cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:189
+msgid "Delay"
+msgstr "Oneskorenie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:190
+msgid "Number of milliseconds before showing the consent modal"
+msgstr "Počet milisekúnd pred zobrazením modálu súhlasu"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:198
+msgid "Cookie expiration"
+msgstr "Platnosť súboru cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:199
+msgid "Number of days before the cookie expires"
+msgstr "Počet dní pred vypršaním platnosti súboru cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:207
+msgid "Cookie path"
+msgstr "Cesta cookies"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:208
+msgid "Path where the cookie will be set"
+msgstr "Cesta, kde bude súbor cookie nastavený"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:216
+msgid "Cookie domain"
+msgstr "Poskytovateľ cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:217
+msgid "Specify your domain or a subdomain"
+msgstr "Zadajte svoju doménu alebo subdoménu"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:226
+msgid "Font & Colors"
+msgstr "Písmo a farby"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:233
+msgid "Font"
+msgstr "Písmo"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:238
+msgid "Fonts you have installed via the Font Library"
+msgstr "Písma, ktoré ste nainštalovali cez Knižnicu písiem"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:244
+msgid "Theme"
+msgstr "Téma"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:256
+msgid "Background"
+msgstr "Pozadie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:261
+msgid "Text"
+msgstr "Text"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:266
+msgid "Primary background"
+msgstr "Primárne pozadie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:271
+msgid "Primary text"
+msgstr "primárny text"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:276
+msgid "Primary hover background"
+msgstr "Primárne pozadie pri prejdení myšou"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:284
+msgid "Primary hover text"
+msgstr "primárny text pri prejdení myšou"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:292
+msgid "Secondary background"
+msgstr "Sekundárne pozadie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:300
+msgid "Secondary text"
+msgstr "Sekundárny text"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:305
+msgid "Secondary hover background"
+msgstr "Sekundárne pozadie pri prejdení myšou"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:313
+msgid "Secondary hover text"
+msgstr "Sekundárny text pri prejdení myšou"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:321
+msgid "Toggle background (off)"
+msgstr "Pozadie prepínača (off)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:329
+msgid "Toggle background (on)"
+msgstr "Pozadie prepínača (on)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:337
+msgid "Toggle background (readonly)"
+msgstr "Pozadie prepínača (len na čítanie)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:345
+msgid "Toggle knob background"
+msgstr "Pozadie tlačidla prepínača"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:353
+msgid "Toggle knob icon color"
+msgstr "Farba ikony tlačidla prepínača"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:361
+msgid "Cookie category block background"
+msgstr "Pozadie bloku kategórie cookie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:369
+msgid "Cookie category block background (hover)"
+msgstr "Pozadie bloku kategórie cookie (pri prejdení myšou)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:377
+msgid "Section border"
+msgstr "Ohraničenie sekcie"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:382
+msgid "Block text"
+msgstr "Textový blok"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:387
+msgid "Cookie table border"
+msgstr "Ohraničenie tabuľky cookies"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:392
+msgid "Overlay background"
+msgstr "Prekrytie pozadia"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:397
+msgid "Scrollbar background"
+msgstr "Pozadie posúvača"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:405
+msgid "Scrollbar background (hover)"
+msgstr "Pozadie posúvača (pri prejdení myšou)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:413
+msgid "Floating button background"
+msgstr "Pozadie plávajúceho tlačidla"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:418
+msgid "Floating button icon"
+msgstr "Ikona plávajúceho tlačidla"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:423
+msgid "Floating button hover background"
+msgstr "Pozadie plávajúceho tlačidla (pri prejdení myšou)"
+
+#: public/bundle.admin.js:15 src/admin/components/tabs/GeneralTab.js:428
+msgid "Floating button hover icon"
+msgstr "Ikona plávajúceho tlačidla pr prejdení myšou"
+
+#. translators: %s: Total number of items.
+#: public/bundle.admin.js:53 src/admin/components/Table/Pagination.js:57
+msgid "First page"
+msgstr "Prvá strana"
+
+#: public/bundle.admin.js:53 src/admin/components/Table/Pagination.js:67
+msgid "Previous page"
+msgstr "Predchádzajúca strana"
+
+#. translators: %1$s: Current page number, %2$s: Total number of pages.
+#: public/bundle.admin.js:55 src/admin/components/Table/Pagination.js:79
+msgctxt "pagination"
+msgid "%1$s of %2$s"
+msgstr "%1$s z %2$s"
+
+#: public/bundle.admin.js:55 src/admin/components/Table/Pagination.js:93
+msgid "Next page"
+msgstr "Ďalšia strana"
+
+#: public/bundle.admin.js:55 src/admin/components/Table/Pagination.js:103
+msgid "Last page"
+msgstr "Posledná strana"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:89
+msgid "Name"
+msgstr "Názov"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:92
+msgid "Domain"
+msgstr "Poskytovateľ"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:95
+msgid "Expiration"
+msgstr "Exspirácia"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:98
+msgid "Path"
+msgstr "Cesta"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:101
+msgid "Description"
+msgstr "Popis"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:99
+#: src/admin/components/BlockedScriptsTable.js:88
+#: src/admin/components/CookiesTable.js:104
+msgid "Is Regex?"
+msgstr "Je Regex?"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: public/bundle.admin.js:89 public/bundle.admin.js:99
+#: src/admin/components/BlockedScriptsTable.js:91
+#: src/admin/components/CookiesTable.js:107
+#: src/admin/components/GCMRegionsTable.js:50
+#: src/admin/components/TranslationsTable.js:39
+msgid "Actions"
+msgstr "Akcie"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:143
+msgid "This is an example cookie."
+msgstr "Toto je príklad súboru cookie."
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: public/bundle.admin.js:89 public/bundle.admin.js:99
+#: src/admin/components/BlockedScriptsTable.js:133
+#: src/admin/components/CookiesTable.js:157
+#: src/admin/components/GCMRegionsTable.js:94
+#: src/admin/components/TranslationsTable.js:77
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:166
+msgid "No cookies in this category."
+msgstr "Žiadne cookies v tejto kategórii."
+
+#: public/bundle.admin.js:65 src/admin/components/CookiesTable.js:177
+msgid "New Cookie"
+msgstr "Nová cookie"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: src/admin/components/tabs/CookiesTab.js:20
+#: src/admin/components/tabs/TranslationsTab.js:314
+msgid "Necessary cookies"
+msgstr "Nevyhnutné"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: src/admin/components/tabs/CookiesTab.js:30
+#: src/admin/components/tabs/TranslationsTab.js:333
+msgid "Analytics cookies"
+msgstr "Analytické"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: src/admin/components/tabs/CookiesTab.js:40
+#: src/admin/components/tabs/TranslationsTab.js:352
+msgid "Targeting cookies"
+msgstr "Zacielenie a reklama"
+
+#: public/bundle.admin.js:65 public/bundle.admin.js:76
+#: src/admin/components/tabs/CookiesTab.js:50
+#: src/admin/components/tabs/TranslationsTab.js:371
+msgid "Preferences cookies"
+msgstr "Preferencie"
+
+#: public/bundle.admin.js:76 src/admin/components/NewLanguageModal.js:29
+#: src/admin/components/TranslationsTable.js:36
+msgid "Language"
+msgstr "Jazyk"
+
+#: public/bundle.admin.js:76 public/bundle.admin.js:89
+#: src/admin/components/GCMRegionsTable.js:86
+#: src/admin/components/TranslationsTable.js:70
+msgid "Edit"
+msgstr "Upraviť"
+
+#: public/bundle.admin.js:76 src/admin/components/NewLanguageModal.js:24
+#: src/admin/components/tabs/TranslationsTab.js:173
+msgid "New Language"
+msgstr "Nový jazyk"
+
+#: public/bundle.admin.js:76 public/bundle.admin.js:89
+#: src/admin/components/NewLanguageModal.js:59
+#: src/admin/components/NewRegionModal.js:173
+msgid "Add"
+msgstr "Pridať"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:147
+msgid "Language auto-detection strategy"
+msgstr "Stratégia automatickej detekcie jazyka"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:149
+msgid "Read the user's browser language"
+msgstr "Prečítať jazyk prehliadača užívateľa"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:150
+msgid "Read value from <html lang=\"...\"> of current page"
+msgstr "Čítať hodnotu z <html lang=\"...\"> aktuálnej stránky"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:153
+msgid "Browser"
+msgstr "Prehliadač"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:154
+msgid "document"
+msgstr "dokument"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:187
+msgid "Consent modal"
+msgstr "Modálny súhlas"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:220
+msgid "Settings modal"
+msgstr "Modálne nastavenia"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:274
+msgid "Cookie table headers"
+msgstr "Záhlavia tabuľky súborov cookie"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/TranslationsTab.js:390
+msgid "More information block"
+msgstr "Blok s ďalšími informáciami"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:67
+msgid "Consent Modal"
+msgstr "Modálny súhlas"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:73
+#: src/admin/components/tabs/ModalsTab.js:174
+msgid "Layout"
+msgstr "Rozloženie"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:76
+#: src/admin/components/tabs/ModalsTab.js:177
+msgid "Box"
+msgstr "Box"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:77
+msgid "Cloud"
+msgstr "Cloud"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:78
+#: src/admin/components/tabs/ModalsTab.js:178
+msgid "Bar"
+msgstr "Lišta"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:86
+msgid "Vertical position"
+msgstr "Vertikálna poloha"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:89
+msgid "Top"
+msgstr "Hore"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:90
+msgid "Middle"
+msgstr "V strede"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:91
+msgid "Bottom"
+msgstr "Dole"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:105
+msgid "Horizontal position"
+msgstr "Horizontálna poloha"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:68
+#: src/admin/components/tabs/ModalsTab.js:108
+#: src/admin/components/tabs/ModalsTab.js:195
+msgid "Left"
+msgstr "Vľavo"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:109
+msgid "Center"
+msgstr "V strede"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:69
+#: src/admin/components/tabs/ModalsTab.js:110
+#: src/admin/components/tabs/ModalsTab.js:196
+msgid "Right"
+msgstr "Vpravo"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:94
+#: src/admin/components/tabs/ModalsTab.js:120
+#: src/admin/components/tabs/ModalsTab.js:206
+msgid "Transition"
+msgstr "Prechod"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:123
+#: src/admin/components/tabs/ModalsTab.js:209
+msgid "Slide"
+msgstr "Posun"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:124
+#: src/admin/components/tabs/ModalsTab.js:210
+msgid "Zoom"
+msgstr "Priblíženie"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:132
+msgid "Primary button"
+msgstr "Primárne tlačidlo"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:135
+msgid "Accept selected"
+msgstr "Prijať vybraté"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:136
+msgid "Accept all"
+msgstr "Prijať všetky"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:144
+msgid "Secondary button"
+msgstr "Sekundárne tlačidlo"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:147
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:148
+msgid "Accept necessary"
+msgstr "Prijať nevyhnutné"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:156
+msgid "Swap buttons"
+msgstr "Vymeniť tlačidlá"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:158
+msgid "Buttons are inverted"
+msgstr "Tlačidlá sú prehodené"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:159
+msgid "Enable to invert buttons"
+msgstr "Povoliť invertovanie tlačidiel"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/ModalsTab.js:168
+msgid "Settings Modal"
+msgstr "Modálne nastavenia"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:65
+#: src/admin/components/tabs/ModalsTab.js:192
+msgid "Position"
+msgstr "Pozícia"
+
+#: public/bundle.admin.js:76 src/admin/icons.js:20
+msgid "Generic"
+msgstr "Generický"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:42
+msgid "Enabled"
+msgstr "Povolené"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:44
+msgid "Will show a floating button to open the settings modal"
+msgstr "Zobrazí sa plávajúce tlačidlo na otvorenie modálu nastavení"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:45
+msgid "Won't show a floating button"
+msgstr "Nezobrazí sa plávajúce tlačidlo"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:53
+msgid "Size"
+msgstr "Veľkosť"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:56
+msgid "Small"
+msgstr "Malá"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:57
+msgid "Large"
+msgstr "Veľká"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:79
+msgid "Icon"
+msgstr "Ikona"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:97
+msgid "No transition (immediately appear)"
+msgstr "Žiadny prechod (okamžite sa objaví)"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:98
+msgid "Fade in"
+msgstr "Fade in"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:99
+msgid "Fade in up"
+msgstr "Fade in up"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:100
+msgid "Fade in zoom"
+msgstr "Fade in zoom"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:101
+msgid "Zoom in"
+msgstr "Zoom in"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:102
+msgid "Slide in horizontally"
+msgstr "Slide in horizontally"
+
+#: public/bundle.admin.js:76 src/admin/components/tabs/FloatingButtonTab.js:103
+msgid "Slide in vertically"
+msgstr "Slide in vertically"
+
+#: public/bundle.admin.js:89 src/admin/components/GCMRegionsTable.js:44
+#: src/admin/components/NewRegionModal.js:84
+msgid "Country"
+msgstr "Krajina"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/GCMRegionsTable.js:47
+#: src/admin/components/tabs/ConsentModeTab.js:347
+msgid "Regions"
+msgstr "Regióny"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/GCMRegionsTable.js:79
+#: src/admin/components/tabs/ConsentModeTab.js:358
+msgid "All regions"
+msgstr "Všetky regióny"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/NewRegionModal.js:79
+#: src/admin/components/tabs/ConsentModeTab.js:246
+msgid "New Region"
+msgstr "Nový región"
+
+#: public/bundle.admin.js:89 src/admin/components/NewRegionModal.js:107
+msgid "Select all"
+msgstr "Vybrať všetko"
+
+#: public/bundle.admin.js:89 src/admin/components/NewRegionModal.js:117
+msgid "Deselect all"
+msgstr "Zrušiť výber"
+
+#: public/bundle.admin.js:89 src/admin/components/NewRegionModal.js:123
+msgid "Search regions"
+msgstr "Hľadať regióny"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:27
+msgid "Adding the Google Tag Manager template"
+msgstr "Pridanie šablóny Google Tag Manager"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:37
+msgid "Community Template Gallery"
+msgstr "Galéria komunitných šablón"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:43
+msgid "Adding a template via the Community Template Gallery screenshot"
+msgstr "Pridanie šablóny pomocou snímky obrazovky Galéria komunitných šablón"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:52
+#: src/admin/components/TagManagerGuide.js:180
+#: src/admin/components/TagManagerGuide.js:275
+#: src/admin/components/TagManagerGuide.js:408
+msgid "Navigate to <a>Google Tag Manager</a>"
+msgstr "Prejdite do <a>Google Tag Manager</a>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:68
+#: src/admin/components/TagManagerGuide.js:196
+#: src/admin/components/TagManagerGuide.js:291
+#: src/admin/components/TagManagerGuide.js:424
+msgid "Select your workspace"
+msgstr "Vyberte svoj pracovný priestor"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:73
+#: src/admin/components/TagManagerGuide.js:201
+msgid "Navigate to the <strong>Templates</strong> tab"
+msgstr "Prejdite na kartu <strong>Šablóny</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:83
+msgid "Click <strong>Search Gallery</strong>, under the Tag Templates section"
+msgstr ""
+"Kliknite na položku <strong>Hľadať v galérii</strong> v časti Šablóny značiek"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:93
+msgid "Search for <strong>Pressidium Cookie Consent</strong>"
+msgstr "Vyhľadajte <strong>Pressidium Cookie Consent</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:103
+msgid "Select it and click <strong>Add to workspace</strong>"
+msgstr ""
+"Vyberte ho a kliknite na položku <strong>Pridať do pracovného priestoru</"
+"strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:114
+msgid "Manually importing the Google Tag Manager template"
+msgstr "Manuálny import šablóny Správcu značiek Google"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:125
+msgid "GTM custom template"
+msgstr "Vlastná šablóna GTM"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:135
+msgid "Template GitHub repository"
+msgstr "Úložisko šablón GitHub"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:143
+msgid "Google Tag Manager importing a template screenshot"
+msgstr "Google Tag Manager importuje snímku šablóny"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:154
+msgid "Alternatively, to manually import the template, follow these steps:"
+msgstr ""
+"Prípadne, ak chcete šablónu importovať manuálne, postupujte podľa týchto "
+"krokov:"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:162
+msgid "Download the GTM <a>custom template</a>"
+msgstr "Stiahnite si <a>vlastnú šablónu</a> GTM"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:211
+msgid "Click <strong>New</strong>, under the Tag Templates section"
+msgstr "Kliknite na položku <strong>Nové</strong> v časti Šablóny značiek"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:219
+msgid ""
+"Select the kebab menu (three dots) located at the top-right corner of the "
+"Template Editor"
+msgstr ""
+"Vyberte ponuku (tri bodky) umiestnenú v pravom hornom rohu editora šablón"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:224
+msgid "Click <strong>Import</strong>"
+msgstr "Kliknite na položku <strong>Importovať</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:234
+msgid "Select the previously downloaded <code>template.tpl</code> file"
+msgstr "Vyberte predtým stiahnutý súbor <code>template.tpl</code>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:244
+#: src/admin/components/TagManagerGuide.js:372
+msgid "Click <strong>Save</strong>"
+msgstr "Kliknite na položku <strong>Uložiť</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:252
+msgid "Close the Template Editor"
+msgstr "Zatvorte editor šablón"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:260
+msgid "Creating a new tag"
+msgstr "Vytvorenie novej značky"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:266
+msgid "Google Tag Manager creating a tag screenshot"
+msgstr "Google Tag Manager vytvára snímku značky"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:296
+#: src/admin/components/TagManagerGuide.js:429
+msgid "Navigate to the <strong>Tags</strong> tab"
+msgstr "Prejdite na kartu <strong>Značky</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:306
+msgid "Click <strong>New</strong> to create a new tag"
+msgstr "Kliknutím na položku <strong>Nové</strong> vytvorte novú značku"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:314
+msgid "Give the tag a name (e.g. Cookie Consent)"
+msgstr "Pomenujte značku (napr. Súhlas so súbormi cookie)"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:319
+msgid ""
+"Click <strong>Choose a tag type to begin setup</strong>, under Tag "
+"Configuration"
+msgstr ""
+"V časti Konfigurácia značky kliknite na položku <strong>Vyberte typ značky "
+"na začatie nastavovania</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:329
+msgid ""
+"Select the <strong>Pressidium Cookie Consent</strong> template, under the "
+"Custom section"
+msgstr ""
+"V sekcii Vlastné vyberte šablónu <strong>Pressidium Cookie Consent</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:337
+msgid "Configure the tag as needed"
+msgstr "Nakonfigurujte značku podľa potreby"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:342
+msgid ""
+"Click <strong>Choose a trigger to make this tag fire</strong>, under the "
+"Triggering section"
+msgstr ""
+"V sekcii Spúšťanie kliknite na možnosť <strong>Vybrať spúšťač na spustenie "
+"tejto značky</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:352
+msgid "Select <strong>Consent Initialization - All Pages</strong>"
+msgstr ""
+"Vyberte možnosť <strong>Inicializácia súhlasu – všetky stránky</strong>"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:362
+msgid "Click <strong>New</strong> to create a new trigger"
+msgstr "Kliknutím na položku <strong>Nový</strong> vytvorte nový spúšťač"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:382
+msgid "Click <strong>Submit</strong> to submit your changes"
+msgstr "Kliknutím na tlačidlo <strong>Odoslať</strong> odošlite zmeny"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:393
+msgid "Configuring the Pressidium Cookie Consent tag"
+msgstr "Konfigurácia značky Pressidium Cookie Consent"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:399
+msgid "Google Tag Manager configuring a tag screenshot"
+msgstr "Google Tag Manager konfiguruje snímku značky"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:437
+msgid "Select the previously created Cookie Consent tag"
+msgstr "Vyberte predtým vytvorenú značku súhlasu so súborom cookie"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:441
+msgid ""
+"Under the Tag Configuration section, you can configure the following "
+"settings:"
+msgstr ""
+"V časti Konfigurácia značky môžete nakonfigurovať nasledujúce nastavenia:"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/tabs/ConsentModeTab.js:265
+#: src/admin/components/TagManagerGuide.js:446
+msgid "Default consent states"
+msgstr "Predvolené stavy súhlasu"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/tabs/ConsentModeTab.js:183
+#: src/admin/components/TagManagerGuide.js:449
+msgid "Ads data redaction"
+msgstr "Ads data redaction"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/tabs/ConsentModeTab.js:205
+#: src/admin/components/TagManagerGuide.js:452
+msgid "URL passthrough"
+msgstr "URL passthrough"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:459
+msgid ""
+"Under Default consent states, click <strong>Add Row</strong> to add a new "
+"row for each region. For each row, you can set the regions as a comma-"
+"separated list of <a>ISO 3166-2</a> codes (leave blank to have your "
+"selection apply to all regions) and the default consent state for each "
+"consent type"
+msgstr ""
+"V časti Predvolené stavy súhlasu kliknite na položku <strong>Pridať riadok</"
+"strong> a pridajte nový riadok pre každý región. Pre každý riadok môžete "
+"nastaviť regióny ako zoznam kódov <a>ISO 3166-2</a> oddelených čiarkami "
+"(nechte prázdne, aby sa váš výber vzťahoval na všetky regióny) a predvolený "
+"stav súhlasu pre každý typ súhlasu"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:478
+msgid ""
+"If two rows are set with values for a region and subregion, the one with a "
+"more specific region will take effect. For example, if you have "
+"<code>ad_storage</code> set to <code>true</code> for <code>US</code>, and "
+"<code>ad_storage</code> set to <code>false</code> for <code>US-CA</code>, a "
+"visitor from California will have the more specific <code>US-CA</code> "
+"setting take effect. For this example, that would mean a visitor from "
+"California would have <code>ad_storage</code> set to <code>false</code>."
+msgstr ""
+"Ak sú dva riadky nastavené s hodnotami pre oblasť a podoblasť, prejaví sa "
+"ten s špecifickejšou oblasťou. Ak máte napríklad <code>ad_storage</code> "
+"nastavené na <code>true</code> pre <code>US</code> a <code>ad_storage</code> "
+"nastavené na <code>false< /code> pre <code>US-CA</code>, pre návštevníka z "
+"Kalifornie bude platiť konkrétnejšie nastavenie <code>US-CA</code>. V tomto "
+"príklade by to znamenalo, že návštevník z Kalifornie by mal parameter "
+"<code>ad_storage</code> nastavený na hodnotu <code>false</code>."
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:489
+msgid "Region"
+msgstr "Región"
+
+#: public/bundle.admin.js:89 public/bundle.admin.js:91
+#: src/admin/components/tabs/ConsentModeTab.js:270
+#: src/admin/components/TagManagerGuide.js:492
+msgid "Ad storage"
+msgstr "Ad storage"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:495
+msgid "Behavior"
+msgstr "Správanie"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:500
+msgid "US"
+msgstr "US"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:503
+#: src/admin/components/TagManagerGuide.js:525
+msgid "true"
+msgstr "true"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:506
+msgid "Applies to all US states except California"
+msgstr "Platí pre všetky štáty USA okrem Kalifornie"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:511
+msgid "US-CA"
+msgstr "US-CA"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:514
+msgid "false"
+msgstr "false"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:517
+msgid "Applies to California"
+msgstr "Platí pre Kaliforniu"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:522
+msgid "Unspecified"
+msgstr "Nešpecifikované"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:528
+msgid "Applies to all other regions"
+msgstr "Platí pre všetky ostatné regióny"
+
+#: public/bundle.admin.js:89 src/admin/components/TagManagerGuide.js:537
+msgid ""
+"Once you are done configuring the tag, click <strong>Submit</strong> to "
+"submit your changes"
+msgstr ""
+"Po dokončení konfigurácie značky kliknite na tlačidlo <strong>Odoslať</"
+"strong> a odošlite zmeny"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:128
+msgid ""
+"Google Tag Manager and/or Google tag may be blocked, impacting the advanced "
+"consent mode. Ensure Google tags load when a user opens the website for "
+"cookieless pings, or signals, to work properly."
+msgstr ""
+"Google Tag Manager a/alebo značka Google môžu byť zablokované, čo má vplyv "
+"na rozšírený režim súhlasu. Zabezpečte, aby sa značky Google načítali, keď "
+"používateľ otvorí web, aby pingy bez súborov cookie alebo signály fungovali "
+"správne."
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:131
+msgid "Advanced consent mode"
+msgstr "Pokročilý režim súhlasu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:135
+msgid "Consent mode pings"
+msgstr "Pingy režimu súhlasu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:146
+msgid "Google Consent Mode v2 (GCM)"
+msgstr "Google Consent Mode v2 (GCM)"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:148
+msgid "Will enable Google Consent Mode"
+msgstr "Povolí režim súhlasu Google Mode v2"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:149
+msgid "Won't enable Google Consent Mode"
+msgstr "Nepovolí režim súhlasu Google Mode v2"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:157
+msgid "Learn more about Google Consent Mode"
+msgstr "Prečítajte si viac o režime súhlasu Google"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:165
+msgid "Implementation"
+msgstr "Implementácia"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:167
+msgid "Requires the Google tag to be installed on every page of your website"
+msgstr ""
+"Vyžaduje, aby bola značka Google nainštalovaná na každej stránke vášho webu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:168
+msgid "Requires the consent mode template to be added to Google Tag Manager"
+msgstr "Vyžaduje pridanie šablóny režimu súhlasu do Správcu značiek Google"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:171
+msgid "Google tag (gtag.js)"
+msgstr "značka Google (gtag.js)"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:172
+msgid "Google Tag Manager (GTM) template"
+msgstr "Google Tag Manager (GTM) šablóna"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:185
+msgid ""
+"When the 'Ad storage' consent type is denied, ad click identifiers sent in "
+"network requests by Google Ads and Floodlight tags will be redacted. Network "
+"requests will also be sent through a cookieless domain"
+msgstr ""
+"Keď je typ súhlasu „Ad storage“ zamietnutý, identifikátory kliknutia na "
+"reklamu odoslané v sieťových žiadostiach prostredníctvom značiek Google Ads "
+"a Floodlight budú odstránené. Sieťové požiadavky sa budú odosielať aj "
+"prostredníctvom domény bez súborov cookie"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:186
+msgid "No further ads data redaction"
+msgstr "Bez ďalšej úpravy údajov o reklamách"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:195
+msgid "Learn more about ads data reduction"
+msgstr "Získajte viac informácií o redukcii údajov o reklamách"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:207
+msgid ""
+"Will pass through ad click, client ID, and session ID information in URLs"
+msgstr ""
+"Prejde cez kliknutie na reklamu, ID klienta a ID relácie v adresách URL"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:208
+msgid "Won't pass through any additional information in URLs"
+msgstr "V adresách URL nebudú prechádzať žiadne ďalšie informácie"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:217
+msgid "Learn more about URL passthrough"
+msgstr "Získajte viac informácií o prechode adresy URL"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:235
+msgid ""
+"No regions added yet. Default consent state will be 'denied' for all regions."
+msgstr ""
+"Zatiaľ neboli pridané žiadne regióny. Predvolený stav súhlasu bude "
+"„odmietnutý“ pre všetky regióny."
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:272
+msgid "Enables storage, such as cookies, related to advertising"
+msgstr "Umožňuje ukladanie, ako napríklad súbory cookie, súvisiace s reklamou"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:273
+msgid "Won't enable storage related to advertising"
+msgstr "Nepovolí ukladanie súvisiace s reklamou"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:281
+msgid "Ad user data"
+msgstr "Používateľské údaje reklamy"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:283
+msgid ""
+"Sets consent for sending user data to Google for online advertising purposes"
+msgstr ""
+"Nastavuje súhlas so zasielaním používateľských údajov spoločnosti Google na "
+"účely online inzercie"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:284
+msgid ""
+"Won't set consent for sending user data to Google for online advertising "
+"purposes"
+msgstr ""
+"Nenastaví súhlas na odosielanie údajov používateľa spoločnosti Google na "
+"účely inzercie online"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:292
+msgid "Ad personalization"
+msgstr "Prispôsobenie reklamy"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:294
+msgid "Sets consent for personalized advertising"
+msgstr "Nastavuje súhlas pre personalizovanú reklamu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:295
+msgid "Won't set consent for personalized advertising"
+msgstr "Nenastaví súhlas pre prispôsobenú reklamu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:303
+msgid "Analytics storage"
+msgstr "Analytická pamäť"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:305
+msgid ""
+"Enables storage, such as cookies, related to analytics (for example, visit "
+"duration)"
+msgstr ""
+"Povolí ukladanie, ako sú súbory cookie, súvisiace s analytikou (napríklad "
+"trvanie návštevy)"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:306
+msgid "Won't enable storage related to analytics"
+msgstr "Nepovolí úložisko súvisiace s analytikou"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:314
+msgid "Functionality storage"
+msgstr "Ukladanie pre funkcionalitu"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:316
+msgid ""
+"Enables storage that supports the functionality of the website such as "
+"language settings"
+msgstr ""
+"Umožňuje ukladanie, ktoré podporuje funkcie webovej lokality, ako sú "
+"jazykové nastavenia"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:317
+msgid "Won't enable storage related to functionality"
+msgstr "Nepovolí úložisko súvisiace s funkcionalitou"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:325
+msgid "Personalization storage"
+msgstr "Ukladanie porsonalizácie"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:327
+msgid ""
+"Enables storage related to personalization such as video recommendations"
+msgstr ""
+"Umožňuje ukladanie súvisiace s prispôsobením, ako sú napríklad odporúčania "
+"videí"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:328
+msgid "Won't enable storage related to personalization"
+msgstr "Nepovolí úložisko súvisiace s prispôsobením"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:336
+msgid "Security storage"
+msgstr "Bezpečnostné úložisko"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:338
+msgid ""
+"Enables storage related to security such as authentication functionality, "
+"fraud prevention, and other user protection"
+msgstr ""
+"Umožňuje ukladanie súvisiace s bezpečnosťou, ako je funkcia overovania, "
+"predchádzanie podvodom a iná ochrana používateľov"
+
+#: public/bundle.admin.js:91 src/admin/components/tabs/ConsentModeTab.js:339
+msgid "Won't enable storage related to security"
+msgstr "Nepovolí úložisko súvisiace so zabezpečením"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:82
+msgid "Script Source"
+msgstr "Zdroj skriptu"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:85
+msgid "Cookie Category"
+msgstr "Kategória súborov cookie"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:108
+msgid "Analytics"
+msgstr "Analytické"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:112
+msgid "Targeting"
+msgstr "Zacielenie a reklama"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:116
+msgid "Preferences"
+msgstr "Preferencie"
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:142
+msgid "No blocked scripts."
+msgstr "Žiadne blokované skripty."
+
+#: public/bundle.admin.js:99 src/admin/components/BlockedScriptsTable.js:153
+msgid "New Script"
+msgstr "Nový skript"
+
+#: public/bundle.admin.js:99 src/admin/components/tabs/BlockedScriptsTab.js:16
+msgid ""
+"Make sure that youâ€™ve enabled the â€œPage Scriptsâ€ option, located under "
+"the General tab."
+msgstr ""
+"Uistite sa, že ste povolili možnosť „Skripty stránok“, ktorá sa nachádza na "
+"karte Všeobecné."
+
+#: public/bundle.admin.js:99 src/admin/components/tabs/BlockedScriptsTab.js:21
+msgid ""
+"Script blocking may not always be effective due to variations in script "
+"loading methods."
+msgstr ""
+"Blokovanie skriptov nemusí byť vždy účinné z dôvodu rozdielov v metódach "
+"načítania skriptov."
+
+#: public/bundle.admin.js:99 src/admin/components/ClearRecordsModal.js:18
+msgid "Clear records?"
+msgstr "Vymazať záznamy?"
+
+#: public/bundle.admin.js:99 src/admin/components/ClearRecordsModal.js:28
+msgid ""
+"You are about to permanently clear all consent records. Are you sure you "
+"want to proceed?"
+msgstr ""
+"Chystáte sa natrvalo vymazať všetky záznamy o súhlase. Naozaj chcete "
+"pokračovať?"
+
+#: public/bundle.admin.js:99 src/admin/components/ClearRecordsModal.js:52
+msgid "Delete records"
+msgstr "Vymazať záznamy"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:114
+msgid "There are no consent records yet."
+msgstr "Zatiaľ neexistujú žiadne záznamy o súhlase."
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:127
+msgid ""
+"Here youâ€™ll find all the consent records that have been collected by the "
+"plugin."
+msgstr "Tu nájdete všetky záznamy o súhlase, ktoré doplnok zhromaždil."
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:136
+msgid "Date"
+msgstr "Dátum"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:139
+msgid "ID"
+msgstr "ID"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:142
+msgid "URL"
+msgstr "URL"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:145
+msgid "Location"
+msgstr "Lokalita"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:148
+msgid "IP address"
+msgstr "IP adresa"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:151
+msgid "User Agent"
+msgstr "User Agent"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:154
+msgid "Necessary consent"
+msgstr "Nevyhnutné"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:157
+msgid "Analytics consent"
+msgstr "Analytické"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:160
+msgid "Targeting consent"
+msgstr "Zacielenie a reklama"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:163
+msgid "Preferences consent"
+msgstr "Preferencie"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:166
+msgid "Recorded at"
+msgstr "Zaznamenané"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:169
+msgid "Last update at"
+msgstr "Naposledy upravené"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:197
+msgid "Unknown"
+msgstr "Neznámy"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:213
+#: src/admin/components/tabs/ConsentRecordsTab.js:220
+#: src/admin/components/tabs/ConsentRecordsTab.js:227
+#: src/admin/components/tabs/ConsentRecordsTab.js:234
+msgid "Accepted"
+msgstr "Prijaté"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:214
+#: src/admin/components/tabs/ConsentRecordsTab.js:221
+#: src/admin/components/tabs/ConsentRecordsTab.js:228
+#: src/admin/components/tabs/ConsentRecordsTab.js:235
+msgid "Denied"
+msgstr "Odmietnuté"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:265
+msgid "Export CSV"
+msgstr "Exportovať CSV"
+
+#: public/bundle.admin.js:104
+#: src/admin/components/tabs/ConsentRecordsTab.js:275
+msgid "Clear Records"
+msgstr "Vymazať záznamy"
+
+#: public/bundle.admin.js:104 src/admin/components/LogView.js:10
+msgid "There are no logs yet."
+msgstr "Zatiaľ tu nie sú žiadne záznamy."
+
+#: public/bundle.admin.js:104 src/admin/components/ClearLogsModal.js:18
+msgid "Clear logs?"
+msgstr "Vymazať záznamy?"
+
+#: public/bundle.admin.js:104 src/admin/components/ClearLogsModal.js:28
+msgid "You are about to clear all logs. Are you sure you want to proceed?"
+msgstr "Chystáte sa vymazať všetky záznamy. Naozaj chcete pokračovať?"
+
+#: public/bundle.admin.js:104 src/admin/components/ClearLogsModal.js:52
+#: src/admin/components/tabs/LogsTab.js:160
+msgid "Clear logs"
+msgstr "Vymazať záznamy"
+
+#: public/bundle.admin.js:104 src/admin/components/tabs/LogsTab.js:127
+msgid ""
+"In this section, youâ€™ll find vital debugging logs. If you encounter any "
+"issues, open an issue and include these logs for reference in our "
+"investigation."
+msgstr ""
+"V tejto sekcii nájdete dôležité protokoly ladenia. Ak narazíte na nejaké "
+"problémy, otvorte problém a zahrňte tieto denníky ako referenciu do nášho "
+"vyšetrovania."
+
+#: public/bundle.admin.js:104 src/admin/components/tabs/LogsTab.js:149
+msgid "Copy to clipboard"
+msgstr "Kopírovať do schránky"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:70
+msgid "About Pressidium Cookie Consent"
+msgstr "O Cookie lište"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:82
+msgid ""
+"Pressidium Cookie Consent makes it easy to add a stylish, customizable "
+"cookie consent banner to your website and conditionally load third-party "
+"scripts (analytics, performance, targeting, etc.) based on the user-selected "
+"preferences to help you comply with EU GDPR cookie law, CCPA, and similar "
+"regulations."
+msgstr ""
+"Cookie lišta uľahčuje pridanie štýlového, prispôsobiteľného bannera súhlasu "
+"so súbormi cookie na vašu webovú stránku a podmienené načítanie skriptov "
+"tretích strán (analytika, výkon, zacielenie atď.) na základe užívateľom "
+"zvolených preferencií, ktoré vám pomôžu dodržiavať EU GDPR cookie zákon, "
+"CCPA a podobné predpisy."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:88
+msgid "Fully customizable"
+msgstr "Plne prispôsobiteľné"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:91
+msgid ""
+"Easily modify the cookie consent banner and settings modal text. Pick one of "
+"the built-in color presets to match your websiteâ€™s aesthetic, or adjust "
+"the color of individual components via our convenient color picker. Choose "
+"from a variety of layouts, positions, and transitions directly from the "
+"WordPress dashboard."
+msgstr ""
+"Jednoducho upravte banner súhlasu so súbormi cookie a modálny text "
+"nastavení. Vyberte si jednu zo vstavaných predvolieb farieb, aby zodpovedala "
+"estetike vašej webovej stránky, alebo upravte farbu jednotlivých komponentov "
+"pomocou nášho pohodlného výberu farieb. Vyberte si z rôznych rozložení, "
+"pozícií a prechodov priamo z hlavného panela WordPress."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:97
+msgid "Lightweight"
+msgstr "Jednoduché"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:100
+msgid ""
+"The plugin is built on top of the Cookie Consent JS library by Orest Bida, a "
+"standalone vanilla JavaScript library with no third-party dependencies, that "
+"loads blazingly fast and wonâ€™t slow down your website."
+msgstr ""
+"Doplnok je postavený na knižnici Cookie Consent JS od Oresta Bida, "
+"samostatnej vanilla JavaScript knižnici bez závislostí od tretích strán, "
+"ktorá sa načítava neuveriteľne rýchlo a nespomalí váš web."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:106
+msgid "Accessible"
+msgstr "Prístupné"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:109
+msgid "An a11y friendly plugin â€” fully accessible and WAI-ARIA compliant."
+msgstr "Doplnok priateľský k a11y – plne prístupný a kompatibilný s WAI-ARIA."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:115
+msgid "Translatable"
+msgstr "Preložiteľné"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:118
+msgid ""
+"Modify any text in the cookie consent banner and settings modal, and provide "
+"translations. Choose the language auto-detection strategy you prefer â€” "
+"either read the userâ€™s browser language or read the markup of the current "
+"page to identify its primary language."
+msgstr ""
+"Upravte akýkoľvek text v banneri súhlasu so súbormi cookie a modálnom "
+"nastavení a poskytnite preklady. Vyberte si preferovanú stratégiu "
+"automatického zisťovania jazyka – buď si prečítajte jazyk prehliadača "
+"používateľa alebo si prečítajte označenie aktuálnej stránky, aby ste určili "
+"jej primárny jazyk."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:124
+msgid "Responsive"
+msgstr "Responzívne"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:127
+msgid ""
+"Fully responsive and mobile-friendly cookie consent banner and settings "
+"modal."
+msgstr ""
+"Plne responzívny a pre mobilné zariadenia vhodný banner na súhlas so súbormi "
+"cookie a modálne nastavenia."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:133
+msgid "Block scripts"
+msgstr "Blokovanie skriptov"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:136
+msgid ""
+"Control which scripts are loaded based on the userâ€™s preferences. List the "
+"URLs of the scripts youâ€™d like to block (both exact matches and regular "
+"expressions are supported) and prevent them from running until the user has "
+"given consent."
+msgstr ""
+"Ovládajte, ktoré skripty sa načítajú na základe preferencií používateľa. "
+"Uveďte adresy URL skriptov, ktoré chcete blokovať (podporované sú presné "
+"zhody aj regulárne výrazy) a zabráňte ich spusteniu, kým používateľ nedá "
+"súhlas."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:145
+msgid ""
+"Automatically delete cookies when a user opts-out of a specific category "
+"inside cookie settings."
+msgstr ""
+"Automaticky odstrániť súbory cookie, keď sa používateľ odhlási z určitej "
+"kategórie v nastaveniach súborov cookie."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:154
+msgid ""
+"Block the user from interacting with the page until they consent to your "
+"cookie policy."
+msgstr ""
+"Zablokujte používateľovi interakciu so stránkou, kým nevyjadrí súhlas s "
+"vašimi zásadami používania súborov cookie."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:163
+msgid "Ask users to consent again when you update your cookie policy."
+msgstr ""
+"Po aktualizácii pravidiel používania súborov cookie znova požiadajte "
+"používateľov o súhlas."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:169
+msgid "Consent records"
+msgstr "Záznamy o súhlase"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:172
+msgid ""
+"Record user consents to be able to provide proof of consent for auditing "
+"purposes."
+msgstr ""
+"Zaznamenajte súhlasy používateľov, aby ste mohli poskytnúť dôkaz o súhlase "
+"na účely auditu."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:181
+msgid ""
+"Automatically parse the user agent to detect bots, crawlers, and webdrivers. "
+"If one is detected, you have the option to hide the cookie consent banner "
+"from them."
+msgstr ""
+"Automaticky analyzovať používateľského agenta na zistenie botov, crawlerov a "
+"webových ovládačov. Ak sa nejaký nájde, máte možnosť pred ním skryť banner "
+"súhlasu so súbormi cookie."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:187
+msgid "Google Consent Mode (GCM) integration"
+msgstr "Integrácia Google Consent Mode (GCM)."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:190
+msgid ""
+"Integrate with Google Consent Mode (GCM) to adjust how Google tags behave "
+"based on the userâ€™s consent preferences. Supports both Google tag (gtag."
+"js) and Google Tag Manager (GTM) implementations."
+msgstr ""
+"Integrujte sa s Google Consent Mode (GCM) a upravte správanie značiek Google "
+"na základe preferencií súhlasu používateľa. Podporuje implementáciu značiek "
+"Google (gtag.js) aj Google Tag Manager (GTM)."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:196
+msgid "Control it programmatically"
+msgstr "Ovládajte ho programovo"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:199
+msgid ""
+"Programmatically control the plugin. Conditionally show/hide the cookie "
+"consent banner and/or the settings modal, accept one (or more) cookie "
+"categories, erase cookies, load previously blocked scripts, etc."
+msgstr ""
+"Programovo ovládajte plugin. Podmienečne zobraziť/skryť banner súhlasu so "
+"súbormi cookie a/alebo modálne nastavenia, prijať jednu (alebo viac) "
+"kategórií súborov cookie, vymazať súbory cookie, načítať predtým zablokované "
+"skripty atď."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:206
+msgid "Credits"
+msgstr "Kredity"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:227
+msgid ""
+"Built on top of the amazing <a1>Cookie Consent</a1> JS library by <a2>Orest "
+"Bida</a2> (licensed under MIT)"
+msgstr ""
+"Postavené na úžasnej knižnici JS <a1>Cookie Consent</a1> od <a2>Oresta Bida</"
+"a2> (licencovaná pod MIT)"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:254
+msgid ""
+"Flag SVGs by <a1>blade-flags</a1>, which uses <a2>twemoji</a2> (licensed "
+"under MIT)"
+msgstr ""
+"Flag SVG by <a1>blade-flags</a1>, ktorý používa <a2>twemoji</a2> "
+"(licencované podľa MIT)"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:285
+msgid "Support"
+msgstr "Podpora"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:297
+msgid ""
+"To ensure that your issue is addressed efficiently, please use one of the "
+"following support channels:"
+msgstr ""
+"Ak chcete zabezpečiť, aby sa váš problém vyriešil efektívne, použite jeden z "
+"nasledujúcich kanálov podpory:"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:309
+msgid ""
+"WordPress.org support forum: You can open a topic in the <a>Pressidium "
+"Cookie Consent support forum</a>."
+msgstr ""
+"Fórum podpory WordPress.org: Tému môžete otvoriť vo <a>fóre podpory pre "
+"súhlas so súbormi cookie Pressidium</a>."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:327
+msgid ""
+"GitHub issue: You can <a>open an issue on the pluginâ€™s GitHub repository</"
+"a> to report a bug or request additional features."
+msgstr ""
+"Problém GitHub: Môžete <a>otvoriť problém v úložisku GitHub doplnku</a> a "
+"nahlásiť chybu alebo požiadať o ďalšie funkcie."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:345
+msgid ""
+"Using these channels helps us keep track of all issues and benefits other "
+"users who might have similar questions."
+msgstr ""
+"Používanie týchto kanálov nám pomáha sledovať všetky problémy a prináša "
+"výhody ostatným používateľom, ktorí môžu mať podobné otázky."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:352
+msgid "About Pressidium"
+msgstr "O Pressidium"
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:366
+msgid ""
+"Since 2014, <a>Pressidium</a> has been providing the ultimate in high "
+"availability, enterprise-class hosting which is trusted by small businesses "
+"through to Fortune 500â€™s."
+msgstr ""
+"Od roku 2014 <a>Pressidium</a> poskytuje špičkový hosting podnikovej triedy "
+"s vysokou dostupnosťou, ktorému dôverujú malé podniky až po rebríčky Fortune "
+"500."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:384
+msgid ""
+"<a>Pressidium N-Tier architecture</a> ensures reliability and security, "
+"setting new standards in WordPress hosting."
+msgstr ""
+"<a>Architektúra Pressidium N-Tier</a> zaisťuje spoľahlivosť a bezpečnosť a "
+"nastavuje nové štandardy v hostingu WordPress."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:402
+msgid ""
+"The <a>innovative Dashboard</a>, couples with advanced features included in "
+"all plans without extra cost, consolidates and streamlines management for "
+"agencies, businesses, and individual site owners."
+msgstr ""
+"<a>Inovatívny informačný panel</a>, ktorý spája pokročilé funkcie zahrnuté "
+"vo všetkých plánoch bez dodatočných nákladov, konsoliduje a zjednodušuje "
+"správu pre agentúry, firmy a jednotlivých vlastníkov stránok."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:418
+msgid ""
+"With a dedicated support team of WordPress experts and DevOps engineers who "
+"work tirelessly 24x7x365, your site is in the best hands, allowing you to "
+"focus on your content and business goals."
+msgstr ""
+"Vďaka špecializovanému podpornému tímu odborníkov na WordPress a inžinierov "
+"DevOps, ktorí neúnavne pracujú 24x7x365, je váš web v tých najlepších "
+"rukách, čo vám umožňuje sústrediť sa na váš obsah a obchodné ciele."
+
+#: public/bundle.admin.js:106 src/admin/components/tabs/AboutTab.js:429
+msgid ""
+"Pressidium. Enjoy 14-days of superior WordPress hosting for free! Learn more."
+msgstr ""
+"Pressídium. Užite si 14 dní špičkového hostingu WordPress zadarmo! Zistite "
+"viac."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:113
+msgid "Settings saved successfully."
+msgstr "Nastavenia boli úspešne uložené."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:116
+#: src/admin/components/SettingsPanel.js:124
+msgid "Could not save settings."
+msgstr "Nastavenia sa nepodarilo uložiť."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:121
+#: src/admin/components/SettingsPanel.js:155
+#: src/admin/components/SettingsPanel.js:198
+msgid "Could not pass security check."
+msgstr "Nepodarilo sa prejsť bezpečnostnou kontrolou."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:190
+msgid "All consent records were cleared successfully."
+msgstr "Všetky záznamy o súhlase boli úspešne vymazané."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:193
+#: src/admin/components/SettingsPanel.js:201
+msgid "Could not clear records."
+msgstr "Nepodarilo sa vyčistiť záznamy."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:404
+#: src/admin/components/SettingsPanel.js:416
+msgid "Could not export consent records."
+msgstr "Záznamy súhlasu sa nepodarilo exportovať."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:433
+msgid "You have unsaved changes. Are you sure you want to leave?"
+msgstr "Máte neuložené zmeny. Naozaj chcete odísť?"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:526
+msgid "General"
+msgstr "Všeobecné"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:532
+msgid "Cookies"
+msgstr "Cookies"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:538
+msgid "Translations"
+msgstr "Preklady"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:544
+msgid "Modals"
+msgstr "Modály"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:550
+msgid "Floating Button"
+msgstr "Plávajúce tlačidlo"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:556
+msgid "Consent Mode"
+msgstr "Režim súhlasu"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:562
+msgid "Blocked Scripts"
+msgstr "Blokované skripty"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:568
+msgid "Consent Records"
+msgstr "Záznamy o súhlase"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:574
+msgid "Logs"
+msgstr "Záznamy"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:580
+msgid "About"
+msgstr "O"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:358
+msgid "Could not export settings."
+msgstr "Nastavenia sa nepodarilo exportovať."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:365
+msgid "No files selected"
+msgstr "Nie sú vybraté žiadne súbory"
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:382
+msgid "Could not import settings."
+msgstr "Nastavenia sa nepodarilo importovať."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:147
+msgid "Settings reset successfully."
+msgstr "Nastavenia boli úspešne obnovené."
+
+#: public/bundle.admin.js:106 src/admin/components/SettingsPanel.js:150
+#: src/admin/components/SettingsPanel.js:158
+msgid "Could not reset settings."
+msgstr "Nastavenia sa nepodarilo obnoviť."
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:21
+msgid "Please share which plugin"
+msgstr "Podeľte sa, prosím, o aký plugin"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:22
+msgid "Please describe the feature you need"
+msgstr "Popíšte funkciu, ktorú potrebujete"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:23
+msgid "Please share the reason"
+msgstr "Podeľte sa o dôvod"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:26
+msgid "Provide any additional details"
+msgstr "Uveďte akékoľvek ďalšie podrobnosti"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:73
+msgid "I no longer need the plugin"
+msgstr "Plugin už nepotrebujem"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:77
+msgid "I found a better plugin"
+msgstr "Našiel som lepší plugin"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:81
+msgid "Itâ€™s missing a feature I need"
+msgstr "Chýba mu funkcia, ktorú potrebujem"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:85
+msgid "I couldnâ€™t get the plugin to work"
+msgstr "Doplnok sa mi nepodarilo spustiť"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:89
+msgid "Itâ€™s a temporary deactivation"
+msgstr "Ide o dočasnú deaktiváciu"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:93
+msgid "Other"
+msgstr "Iné"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:120
+msgid "Send feedback & deactivate"
+msgstr "Odoslať spätnú väzbu a deaktivovať"
+
+#: public/bundle.feedback.js:1 src/feedback/components/Feedback.js:125
+msgid "Skip & deactivate"
+msgstr "Preskočiť a deaktivovať"
