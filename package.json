@@ -1,0 +1,50 @@
+{
+  "name": "wps-cookie-consent",
+  "version": "1.0.0",
+  "description": "Jednoduchý a prispôsobiteľný banner súhlasu so súbormi cookie, ktorý pomáha dodržiavať zákon EÚ o súboroch cookie GDPR.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drimlon/wps-cookie-consent.git"
+  },
+  "keywords": [
+    "cookie",
+    "consent",
+    "gdpr"
+  ],
+  "author": "WPS <info@wps.sk>",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/drimlon/wps-cookie-consent/issues"
+  },
+  "homepage": "https://github.com/drimlon/wps-cookie-consent#readme",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^14.2.0",
+    "@wordpress/scripts": "^26.0.0",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.29.0",
+    "@wordpress/components": "^23.6.0",
+    "@wordpress/element": "^5.6.0",
+    "@wordpress/i18n": "^4.29.0",
+    "@wordpress/icons": "^9.22.0",
+    "@wordpress/primitives": "^4.4.0",
+    "@wordpress/url": "^3.43.0",
+    "iso-3166-2": "^1.0.0",
+    "react-beforeunload": "^2.5.3",
+    "styled-components": "^5.3.9"
+  }
+}
