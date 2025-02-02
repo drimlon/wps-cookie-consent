@@ -99,3 +99,5 @@ function init_plugin(): void {
 
 register_activation_hook( __FILE__, __NAMESPACE__ . '\activate_plugin' );
 add_action( 'plugins_loaded', __NAMESPACE__ . '\init_plugin' );
+error_log('WPS Cookie Consent sa načítal!');
+
