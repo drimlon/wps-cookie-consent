@@ -26,8 +26,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return void
  */
 function setup_constants(): void {
-    if ( ! defined( 'WPS\WP\CookieConsent\VERSION' ) ) {
-        define( 'WPS\WP\CookieConsent\VERSION', '1.7.1' );
+    if ( ! defined( 'WPS_WP_COOKIE_CONSENT_VERSION' ) ) {
+    define( 'WPS_WP_COOKIE_CONSENT_VERSION', '1.7.1' );
+    }
     }
 
     if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_DIR' ) ) {
