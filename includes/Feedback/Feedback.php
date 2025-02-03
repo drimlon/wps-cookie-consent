@@ -6,12 +6,12 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
-use const WPS\WP\CookieConsent\PLUGIN_DIR;
-use const WPS\WP\CookieConsent\PLUGIN_URL;
+use const Wps\WP\CookieConsent\PLUGIN_DIR;
+use const Wps\WP\CookieConsent\PLUGIN_URL;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Hooks\Actions;
 
 use WP_Error;
 use WP_REST_Request;
