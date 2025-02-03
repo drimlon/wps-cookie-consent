@@ -6,12 +6,12 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Client;
+namespace Wps\WP\CookieConsent\Client;
 
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
 
-use WPS\WP\CookieConsent\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
+use Wps\WP\CookieConsent\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
  * Service_Provider class.
