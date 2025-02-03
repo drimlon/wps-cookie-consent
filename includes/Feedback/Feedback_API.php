@@ -6,12 +6,12 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
-use const WPS\WP\CookieConsent\PLUGIN_FILE;
-use const WPS\WP\CookieConsent\VERSION;
+use const Wps\WP\CookieConsent\PLUGIN_FILE;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 use WP_Error;
 use Exception;
