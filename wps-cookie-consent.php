@@ -13,7 +13,7 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
@@ -30,16 +30,16 @@ function setup_constants(): void {
     }
     }
 
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_DIR' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_DIR' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
     }
 
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_URL' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_URL' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
     }
 
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_FILE' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_FILE', __FILE__ );
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_FILE' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_FILE', __FILE__ );
     }
 }
 /**
@@ -98,5 +98,5 @@ function init_plugin(): void {
 
 register_activation_hook( __FILE__, __NAMESPACE__ . '\activate_plugin' );
 add_action( 'plugins_loaded', __NAMESPACE__ . '\init_plugin' );
-error_log('WPS Cookie Consent sa načítal!');
+error_log('Wps Cookie Consent sa načítal!');
 
