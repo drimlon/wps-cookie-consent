@@ -2,7 +2,7 @@ import { __ } from '@wordpress/i18n';
 
 export default [
   {
-    label: __('WPS', 'wps-cookie-consent'),
+    label: __('Wps', 'wps-cookie-consent'),
     value: 'wps',
     Component: () => (
       <svg id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 145.1 145.1">
