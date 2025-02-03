@@ -6,12 +6,12 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Database\Tables;
+namespace Wps\WP\CookieConsent\Database\Tables;
 
-use WPS\WP\CookieConsent\Admin\Settings\Consent_Record;
-use WPS\WP\CookieConsent\Database\Blueprint;
-use WPS\WP\CookieConsent\Database\Table;
-use WPS\WP\CookieConsent\Database\Raw;
+use Wps\WP\CookieConsent\Admin\Settings\Consent_Record;
+use Wps\WP\CookieConsent\Database\Blueprint;
+use Wps\WP\CookieConsent\Database\Table;
+use Wps\WP\CookieConsent\Database\Raw;
 
 use Exception;
 
