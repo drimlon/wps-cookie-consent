@@ -18,7 +18,7 @@ import styled from 'styled-components';
 import Emoji from '../Emoji';
 
 import {
-  wps as WPSIcon,
+  wps as WpsIcon,
 } from '../icons';
 
 const StyledHeading = styled.h2`
@@ -67,7 +67,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
   return (
     <Panel>
       <PanelBody
-        title={__('About WPS Cookie Consent', 'wps-cookie-consent')}
+        title={__('About Wps Cookie Consent', 'wps-cookie-consent')}
         icon={InfoIcon}
         initialOpen
       >
@@ -79,7 +79,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
           >
             <FlexItem>
               <p>
-                {__('WPS Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (analytics, performance, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.', 'wps-cookie-consent')}
+                {__('Wps Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (analytics, performance, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.', 'wps-cookie-consent')}
               </p>
             </FlexItem>
             <FlexItem>
