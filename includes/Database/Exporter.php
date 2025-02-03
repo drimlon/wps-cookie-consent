@@ -6,7 +6,7 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
 use WP_REST_Response;
 
