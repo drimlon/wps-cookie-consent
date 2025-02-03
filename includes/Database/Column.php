@@ -6,7 +6,7 @@
  * @copyright 2024 WPS
  */
 
-namespace PWPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
