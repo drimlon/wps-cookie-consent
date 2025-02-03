@@ -6,9 +6,9 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
-use WPS\WP\CookieConsent\Sanitizer;
+use Wps\WP\CookieConsent\Sanitizer;
 
 use Exception;
 
