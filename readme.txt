@@ -1,4 +1,4 @@
-== WPS Cookie Consent ==
+== Wps Cookie Consent ==
 Author URI: https://wps.sk/
 Plugin URI: https://wps.sk/cookie-consent-lista/
 Contributors: wps, overengineer
