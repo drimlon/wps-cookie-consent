@@ -6,11 +6,11 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
-use const WPS\WP\CookieConsent\VERSION;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 use RuntimeException;
 
@@ -50,7 +50,7 @@ class Logs {
         return implode(
             "\n",
             array(
-                sprintf( 'WPS Cookie Consent v%s', VERSION ),
+                sprintf( 'Wps Cookie Consent v%s', VERSION ),
                 sprintf( 'WordPress v%s', get_bloginfo( 'version' ) ),
                 sprintf( 'PHP v%s', phpversion() ),
                 $wpdb->db_server_info(),
