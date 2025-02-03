@@ -6,9 +6,9 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Admin\Settings;
+namespace Wps\WP\CookieConsent\Admin\Settings;
 
-use WPS\WP\CookieConsent\Utils;
+use Wps\WP\CookieConsent\Utils;
 
 use DateTime;
 
