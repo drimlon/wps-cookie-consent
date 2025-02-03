@@ -6,10 +6,10 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
-use WPS\WP\CookieConsent\Options\Options;
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Options\Options;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 use Exception;
 
