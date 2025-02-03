@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "WPS Cookie Consent",
+  "displayName": "Wps Cookie Consent",
   "categories": ["TAG_MANAGEMENT", "PERSONALIZATION"],
   "brand": {
     "id": "brand_dummy",
@@ -137,10 +137,10 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 /*
- * WPS Cookie Consent
+ * Wps Cookie Consent
  * (Google Tag Manager consent template)
  *
- * Copyright (c) 2024 WPS
+ * Copyright (c) 2024 Wps
  */
 
 const setDefaultConsentState = require('setDefaultConsentState');
@@ -360,7 +360,7 @@ const main = (data) => {
    * object containing fields that correspond to the five built-in Google
    * consent types.
    */
-  callInWindow('addWPSGCMConsentListener', onUserConsent);
+  callInWindow('addWpsGCMConsentListener', onUserConsent);
 };
 
 main(data);
@@ -405,7 +405,7 @@ ___WEB_PERMISSIONS___
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "addWPSGCMConsentListener"
+                    "string": "addWpsGCMConsentListener"
                   },
                   {
                     "type": 8,

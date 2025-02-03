@@ -2,16 +2,16 @@
 /**
  * API service provider.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
 
-use WPS\WP\CookieConsent\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
+use Wps\WP\CookieConsent\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 // Prevent direct access
 if ( ! defined( 'ABSPATH' ) ) {

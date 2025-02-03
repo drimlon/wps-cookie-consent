@@ -2,15 +2,15 @@
 /**
  * Upgrader.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2024 Wps
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
-use const WPS\WP\CookieConsent\VERSION;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
@@ -56,7 +56,7 @@ class Upgrader {
             return false;
         }
 
-        if ( ! defined( 'WPS\WP\CookieConsent\VERSION' ) ) {
+        if ( ! defined( 'Wps\WP\CookieConsent\VERSION' ) ) {
             return false;
         }
 

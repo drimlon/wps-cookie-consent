@@ -13,8 +13,8 @@ import { file as FileIcon, link as LinkIcon } from '@wordpress/icons';
 import Table, { Header, Row, Column } from './Table';
 
 function TagManagerGuide() {
-  const repoUrl = 'https://github.com/drimlon/wps-cookie-consent-gtm-template';
-  const communityTemplateGalleryUrl = 'https://tagmanager.google.com/gallery/#/owners/drimlon/templates/wps-cookie-consent-gtm-template';
+  const repoUrl = 'https://github.com/drimlon/wps-cookie-consent-gtm-template/';
+  const communityTemplateGalleryUrl = 'https://tagmanager.google.com/gallery/#/owners/wps/templates/wps-cookie-consent-gtm-template';
 
   const {
     screenshots = {},
@@ -90,7 +90,7 @@ function TagManagerGuide() {
             <li>
               {
                 createInterpolateElement(
-                  __('Search for <strong>WPS Cookie Consent</strong>', 'wps-cookie-consent'),
+                  __('Search for <strong>Wps Cookie Consent</strong>', 'wps-cookie-consent'),
                   {
                     strong: <strong />,
                   },
@@ -326,7 +326,7 @@ function TagManagerGuide() {
             <li>
               {
                 createInterpolateElement(
-                  __('Select the <strong>WPS Cookie Consent</strong> template, under the Custom section', 'wps-cookie-consent'),
+                  __('Select the <strong>Wps Cookie Consent</strong> template, under the Custom section', 'wps-cookie-consent'),
                   {
                     strong: <strong/>,
                   },
@@ -390,7 +390,7 @@ function TagManagerGuide() {
         </PanelRow>
       </PanelBody>
       <PanelBody
-        title={__('Configuring the WPS Cookie Consent tag', 'wps-cookie-consent')}
+        title={__('Configuring the Wps Cookie Consent tag', 'wps-cookie-consent')}
         initialOpen={false}
       >
         <PanelRow>

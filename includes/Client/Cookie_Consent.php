@@ -2,19 +2,19 @@
 /**
  * Cookie Consent.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Client;
+namespace Wps\WP\CookieConsent\Client;
 
-use const WPS\WP\CookieConsent\PLUGIN_DIR;
-use const WPS\WP\CookieConsent\PLUGIN_URL;
+use const Wps\WP\CookieConsent\PLUGIN_DIR;
+use const Wps\WP\CookieConsent\PLUGIN_URL;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
-use WPS\WP\CookieConsent\Hooks\Filters;
+use Wps\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Hooks\Filters;
 
-use WPS\WP\CookieConsent\Settings;
+use Wps\WP\CookieConsent\Settings;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );

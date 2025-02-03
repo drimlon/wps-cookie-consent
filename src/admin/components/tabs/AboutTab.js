@@ -18,7 +18,7 @@ import styled from 'styled-components';
 import Emoji from '../Emoji';
 
 import {
-  wps as WPSIcon,
+  wps as WpsIcon,
 } from '../icons';
 
 const StyledHeading = styled.h2`
@@ -54,20 +54,21 @@ function AboutTab() {
     },
     support: {
       github: 'https://github.com/drimlon/wps-cookie-consent/issues/new',
+      forum: 'https://wordpress.org/support/plugin/wps-cookie-consent/',
     },
     wps: {
       home: 'https://wps.sk/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
-utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
-      dashboard: 'https://wps.sk/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
-      features: 'https://wps.sk/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
-      trial: 'https://wps.sk/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
+      technology: 'https://wps.sk/technology/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
+      dashboard: 'https://wps.sk/dashboard/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
+      features: 'https://wps.sk/features/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
+      trial: 'https://wps.sk/free-trial/?utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
     },
   };
 
   return (
     <Panel>
       <PanelBody
-        title={__('About WPS Cookie Consent', 'wps-cookie-consent')}
+        title={__('About Wps Cookie Consent', 'wps-cookie-consent')}
         icon={InfoIcon}
         initialOpen
       >
@@ -79,7 +80,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
           >
             <FlexItem>
               <p>
-                {__('WPS Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (analytics, performance, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.', 'wps-cookie-consent')}
+                {__('Wps Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (analytics, performance, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.', 'wps-cookie-consent')}
               </p>
             </FlexItem>
             <FlexItem>
@@ -233,7 +234,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
                   <li>
                     {
                       createInterpolateElement(
-                        __('Developed and maintained by <a>WPS</a>', 'wps-cookie-consent'),
+                        __('Developed and maintained by <a>Wps®</a>', 'wps-cookie-consent'),
                         {
                           a: (
                             // eslint-disable-next-line max-len
@@ -333,7 +334,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
                   <li>
                     {
                       createInterpolateElement(
-                        __('WordPress.org support forum: You can open a topic in the <a>WPS Cookie Consent support forum</a>.', 'wps-cookie-consent'),
+                        __('WordPress.org support forum: You can open a topic in the <a>Wps Cookie Consent support forum</a>.', 'wps-cookie-consent'),
                         {
                           a: (
                             // eslint-disable-next-line max-len
@@ -376,8 +377,8 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
         </PanelRow>
       </PanelBody>
       <PanelBody
-        title={__('About WPS', 'wps-cookie-consent')}
-        icon={WPSIcon}
+        title={__('About Wps', 'wps-cookie-consent')}
+        icon={WpsIcon}
         initialOpen
       >
         <PanelRow>
@@ -390,7 +391,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
               <p>
                 {
                   createInterpolateElement(
-                    __('Since 2014, <a>WPS</a> has been providing the ultimate in high availability, enterprise-class hosting which is trusted by small businesses through to Fortune 500’s.', 'wps-cookie-consent'),
+                    __('Since 2014, <a>Wps</a> has been providing the ultimate in high availability, enterprise-class hosting which is trusted by small businesses through to Fortune 500’s.', 'wps-cookie-consent'),
                     {
                       a: (
                         // eslint-disable-next-line max-len
@@ -408,13 +409,13 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
               <p>
                 {
                   createInterpolateElement(
-                    __('<a>WPS N-Tier architecture</a> ensures reliability and security, setting new standards in WordPress hosting.', 'wps-cookie-consent'),
+                    __('<a>Wps N-Tier architecture</a> ensures reliability and security, setting new standards in WordPress hosting.', 'wps-cookie-consent'),
                     {
                       a: (
                         // eslint-disable-next-line max-len
                         // eslint-disable-next-line jsx-a11y/anchor-has-content,jsx-a11y/control-has-associated-label
                         <a
-                          href={urls.wps.home}
+                          href={urls.wps.technology}
                           target="_blank"
                           rel="noreferrer noopener"
                         />
@@ -432,7 +433,7 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
                         // eslint-disable-next-line max-len
                         // eslint-disable-next-line jsx-a11y/anchor-has-content,jsx-a11y/control-has-associated-label
                         <a
-                          href={urls.wps.home}
+                          href={urls.wps.dashboard}
                           target="_blank"
                           rel="noreferrer noopener"
                         />
@@ -447,13 +448,13 @@ utm_source=pccplugin&utm_medium=about&utm_campaign=wpplugins',
             </FlexItem>
             <FlexItem>
               <a
-                href={urls.wps.home}
+                href={urls.wps.trial}
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <img
                   src={promo}
-                  alt={__('WPS. Enjoy 14-days of superior WordPress hosting for free! Learn more.', 'wps-cookie-consent')}
+                  alt={__('Wps. Enjoy 14-days of superior WordPress hosting for free! Learn more.', 'wps-cookie-consent')}
                   style={{ width: '100%', maxWidth: '930px', marginTop: '1em' }}
                 />
               </a>

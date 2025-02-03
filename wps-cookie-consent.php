@@ -1,19 +1,20 @@
 <?php
 /**
- * Plugin Name: WPS Cookie Consent
+ * Plugin Name: Wps Cookie Consent
  * Plugin URI: https://github.com/drimlon/wps-cookie-consent/
  * Description: Jednoduchý a prispôsobiteľný banner súhlasu so súbormi cookie, ktorý pomáha dodržiavať zákon EÚ o súboroch cookie GDPR.
- * Version: 1.7.1
- * Author: WPS
+ * Version: 1.6.2
+ * Author: Wps
  * Author URI: https://wps.sk/
  * Text Domain: wps-cookie-consent
+ * Domain Path: /languages
  * License: GPLv2
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
@@ -25,21 +26,20 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return void
  */
 function setup_constants(): void {
-    if ( ! defined( 'WPS_WP_COOKIE_CONSENT_VERSION' ) ) {
-    define( 'WPS_WP_COOKIE_CONSENT_VERSION', '1.7.1' );
-    }
-    }
-
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_DIR' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+    if ( ! defined( 'Wps\WP\CookieConsent\VERSION' ) ) {
+        define( 'Wps\WP\CookieConsent\VERSION', '1.6.2' );
     }
 
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_URL' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_DIR' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
     }
 
-    if ( ! defined( 'WPS\WP\CookieConsent\PLUGIN_FILE' ) ) {
-        define( 'WPS\WP\CookieConsent\PLUGIN_FILE', __FILE__ );
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_URL' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+    }
+
+    if ( ! defined( 'Wps\WP\CookieConsent\PLUGIN_FILE' ) ) {
+        define( 'Wps\WP\CookieConsent\PLUGIN_FILE', __FILE__ );
     }
 }
 
@@ -99,5 +99,3 @@ function init_plugin(): void {
 
 register_activation_hook( __FILE__, __NAMESPACE__ . '\activate_plugin' );
 add_action( 'plugins_loaded', __NAMESPACE__ . '\init_plugin' );
-error_log('WPS Cookie Consent sa načítal!');
-

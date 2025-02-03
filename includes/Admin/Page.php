@@ -2,13 +2,13 @@
 /**
  * Abstract class for admin options pages.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Admin;
+namespace Wps\WP\CookieConsent\Admin;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Hooks\Actions;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );

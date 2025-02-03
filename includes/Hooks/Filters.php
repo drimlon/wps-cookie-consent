@@ -2,11 +2,11 @@
 /**
  * Filters interface.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Hooks;
+namespace Wps\WP\CookieConsent\Hooks;
 
 // Prevent direct access to files
 if ( ! defined( 'ABSPATH' ) ) {

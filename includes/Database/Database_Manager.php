@@ -2,14 +2,14 @@
 /**
  * Database manager.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
-use WPS\WP\CookieConsent\Options\Options;
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Options\Options;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 use Exception;
 

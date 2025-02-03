@@ -24,9 +24,9 @@ parameters:
         # Scan all PHP files
         - php
     ignoreErrors:
-        - '#Constant WPS\\WP\\CookieConsent\\VERSION not found#'
-        - '#Constant WPS\\WP\\CookieConsent\\PLUGIN_DIR not found#'
-        - '#Constant WPS\\WP\\CookieConsent\\PLUGIN_URL not found#'
-        - '#Constant WPS\\WP\\CookieConsent\\PLUGIN_FILE not found#'
+        - '#Constant Wps\\WP\\CookieConsent\\VERSION not found#'
+        - '#Constant Wps\\WP\\CookieConsent\\PLUGIN_DIR not found#'
+        - '#Constant Wps\\WP\\CookieConsent\\PLUGIN_URL not found#'
+        - '#Constant Wps\\WP\\CookieConsent\\PLUGIN_FILE not found#'
     dynamicConstantNames:
         - WPS_PLATFORM

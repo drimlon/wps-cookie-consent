@@ -2,16 +2,16 @@
 /**
  * Feedback API.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
-use const WPS\WP\CookieConsent\PLUGIN_FILE;
-use const WPS\WP\CookieConsent\VERSION;
+use const Wps\WP\CookieConsent\PLUGIN_FILE;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Logging\Logger;
 
 use WP_Error;
 use Exception;
@@ -43,7 +43,7 @@ class Feedback_API extends API {
      * @return string
      */
     protected function get_api_base_url(): string {
-        return 'https://feedback-api.wps.sk/api/v1/';
+        return 'https://feedback-api.wps.com/api/v1/';
     }
 
     /**

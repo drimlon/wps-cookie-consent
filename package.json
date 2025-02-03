@@ -1,7 +1,7 @@
 {
   "name": "wps-cookie-consent",
   "version": "1.0.0",
-  "description": "Jednoduchý a prispôsobiteľný banner súhlasu so súbormi cookie, ktorý pomáha dodržiavať zákon EÚ o súboroch cookie GDPR.",
+  "description": "Lightweight, user-friendly and customizable cookie consent banner to help you comply with the EU GDPR cookie law and CCPA regulations",
   "main": "src/index.js",
   "scripts": {
     "start": "wp-scripts start",
@@ -17,7 +17,7 @@
     "consent",
     "gdpr"
   ],
-  "author": "WPS <info@wps.sk>",
+  "author": "Wps <infowps.sk@gmail.com>",
   "license": "GPL-2.0-or-later",
   "private": true,
   "bugs": {

@@ -2,11 +2,11 @@
 /**
  * Schema.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Database;
+namespace Wps\WP\CookieConsent\Database;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );

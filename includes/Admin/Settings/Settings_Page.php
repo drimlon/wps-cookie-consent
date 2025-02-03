@@ -2,21 +2,21 @@
 /**
  * Settings admin page.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Admin\Settings;
+namespace Wps\WP\CookieConsent\Admin\Settings;
 
-use const WPS\WP\CookieConsent\PLUGIN_DIR;
-use const WPS\WP\CookieConsent\PLUGIN_URL;
-use const WPS\WP\CookieConsent\VERSION;
+use const Wps\WP\CookieConsent\PLUGIN_DIR;
+use const Wps\WP\CookieConsent\PLUGIN_URL;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
-use WPS\WP\CookieConsent\Hooks\Filters;
+use Wps\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Hooks\Filters;
 
-use WPS\WP\CookieConsent\Admin\Page;
-use WPS\WP\CookieConsent\Utils;
+use Wps\WP\CookieConsent\Admin\Page;
+use Wps\WP\CookieConsent\Utils;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
@@ -209,7 +209,7 @@ class Settings_Page extends Page implements Actions, Filters {
                     '<a href="%1$s" target="_blank" rel="noopener noreferrer">%2$s</a>',
                     // phpcs:ignore Generic.Files.LineLength
                     esc_url( 'https://wps.sk/?utm_source=cookieconsent&utm_medium=txtlink&utm_campaign=plugins&utm_content=footer' ),
-                    esc_html( 'WPS' )
+                    esc_html( 'Wps®' )
                 ),
                 sprintf(
                     '<a href="%1$s" target="_blank" rel="noopener noreferrer">%2$s</a>',

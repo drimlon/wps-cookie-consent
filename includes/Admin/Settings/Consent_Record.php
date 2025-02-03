@@ -2,13 +2,13 @@
 /**
  * Consent record.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Admin\Settings;
+namespace Wps\WP\CookieConsent\Admin\Settings;
 
-use WPS\WP\CookieConsent\Utils;
+use Wps\WP\CookieConsent\Utils;
 
 use DateTime;
 

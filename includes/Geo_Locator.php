@@ -2,11 +2,11 @@
 /**
  * Geo_Locator.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );

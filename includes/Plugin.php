@@ -2,29 +2,29 @@
 /**
  * Plugin.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent;
+namespace Wps\WP\CookieConsent;
 
-use WPS\WP\CookieConsent\Dependencies\League\Container\Container;
+use Wps\WP\CookieConsent\Dependencies\League\Container\Container;
 
-use WPS\WP\CookieConsent\Database\CSV_Exporter;
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
-use WPS\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
+use Wps\WP\CookieConsent\Database\CSV_Exporter;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\ContainerExceptionInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Container\NotFoundExceptionInterface;
 
-use WPS\WP\CookieConsent\Admin\Settings\Service_Provider as Settings_Service_Provider;
-use WPS\WP\CookieConsent\Client\Service_Provider as Client_Service_Provider;
-use WPS\WP\CookieConsent\Feedback\Service_Provider as Feedback_Service_Provider;
+use Wps\WP\CookieConsent\Admin\Settings\Service_Provider as Settings_Service_Provider;
+use Wps\WP\CookieConsent\Client\Service_Provider as Client_Service_Provider;
+use Wps\WP\CookieConsent\Feedback\Service_Provider as Feedback_Service_Provider;
 
-use WPS\WP\CookieConsent\Hooks\Hooks_Manager;
-use WPS\WP\CookieConsent\Logging\File_Logger;
-use WPS\WP\CookieConsent\Logging\Logger;
-use WPS\WP\CookieConsent\Options\WP_Options;
+use Wps\WP\CookieConsent\Hooks\Hooks_Manager;
+use Wps\WP\CookieConsent\Logging\File_Logger;
+use Wps\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Options\WP_Options;
 
-use WPS\WP\CookieConsent\Database\Tables\Consents_Table;
-use WPS\WP\CookieConsent\Database\Database_Manager;
+use Wps\WP\CookieConsent\Database\Tables\Consents_Table;
+use Wps\WP\CookieConsent\Database\Database_Manager;
 
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );

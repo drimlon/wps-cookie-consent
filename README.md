@@ -2,40 +2,136 @@
     <img width="128" height="128" src="./icon.png" />
 </p>
 
-# WPS Cookie Consent
+# Wps Cookie Consent
 
-WPS Cookie Consent uľahčuje pridanie prispôsobiteľného bannera súhlasu so súbormi cookie na vašu webovú stránku a podmienené načítanie skriptov tretích strán (predvoľby, analýzy, marketing atď.) na základe preferencií vybraných používateľom, ktoré vám pomôžu dosiahnuť súlad s GDPR.
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
+[![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
+[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
+[![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
 
+🍪 Wps Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (preferences, analytics, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.
 
-## Vlastnosti
+![Cookie consent plugin screenshot](./.wordpress-org/screenshot-5.png)
 
-### Jednoduchosť
+## Table of Contents
 
-Doplnok je postavený na knižnici Cookie Consent JS od Oresta Bida, samostatnej vanilla JavaScriptovej knižnici bez závislostí od tretích strán, ktorá sa načítava bleskovo rýchlo a nespomalí váš web.
+* [Setup](#setup)
+* [Features](#features)
+* [Credits](#credits)
+* [License](#license)
+* [About Wps](#about-wps)
 
-### Záznamy súhlasov
+## Setup
 
-Zaznamenajte súhlasy používateľov, aby ste mohli poskytnúť dôkaz o súhlase na účely auditu.
+1. Install Composer dependencies
 
-### Skryť pred botmi
+    ```bash
+    composer install
+    ```
 
-Automaticky analyzuje botov, crawlerov a web drivery. Ak sa nejaký nájde, máte možnosť pred ním skryť banner súhlasu.
+2. Install npm dependencies
 
-### Integrácia Google Consent Mode (GCM)
+    ```bash
+    npm install
+    ```
 
-Integrujte sa s režimom súhlasu Google (GCM) a upravte správanie značiek Google na základe preferencií súhlasu používateľa. Podporuje implementáciu značiek Google (gtag.js) aj Správcu značiek Google (GTM).
+3. Build the plugin
 
-### Ovládajte ho programovo
+    ```bash
+    npm run build
+    ```
 
-Programovo ovládajte plugin. Podmienečne zobraziť/skryť banner súhlasu so súbormi cookie a/alebo modálne nastavenia, prijať jednu (alebo viac) kategórií súborov cookie, vymazať súbory cookie, načítať predtým zablokované skripty atď.
+4. Upload the entire `wps-cookie-consent` folder to the `wp-content/plugins/` directory
 
-## Kredity
+5. Activate the plugin through the “Plugins” menu in WordPress
 
-- Postavené na úžasnej [Cookie Consent](https://github.com/orestbida/cookieconsent) knižnici JS od [Orest Bida](https://github.com/orestbida) (s licenciou MIT)
-- Označte súbory SVG od [blade-flags](https://github.com/MohmmedAshraf/blade-flags/), ktorý používa [twemoji](https://github.com/twitter/twemoji) (licencované podľa MIT)
+## Features
 
-## Licencia
+### ⚙️ Fully customizable
+
+![Color picker screenshot](./.wordpress-org/screenshot-2.png)
+
+Easily modify the cookie consent banner and settings modal text. Pick one of the built-in color presets to match your website’s aesthetic, or adjust the color of individual components via our convenient color picker. Choose from a variety of layouts, positions, and transitions directly from the WordPress dashboard.
+
+### 🪶 Lightweight
+
+The plugin is built on top of the Cookie Consent JS library by Orest Bida, a standalone vanilla JavaScript library with no third-party dependencies, that loads blazingly fast and won’t slow down your website.
+
+### ♿ Accessible
+
+An a11y friendly plugin — fully accessible and WAI-ARIA compliant.
+
+### 🌐 Translatable
+
+![Translations tab screenshot](./.wordpress-org/screenshot-4.png)
+
+Modify any text in the cookie consent banner and settings modal, and provide translations. Choose the language auto-detection strategy you prefer — either  read the user’s browser language or read the markup of the current page to identify its primary language.
+
+### 📱 Responsive
+
+Fully responsive and mobile-friendly cookie consent banner and settings modal.
+
+### 🙅 Block scripts
+
+![Blocked scripts tab screenshot](./.wordpress-org/screenshot-10.png)
+
+Control which scripts are loaded based on the user’s preferences. List the URLs of the scripts you’d like to block (both exact matches and regular expressions are supported) and prevent them from running until the user has given consent.
+
+### 🧹 Auto-clear cookies
+
+![Cookie tables screenshot](./.wordpress-org/screenshot-3.png)
+
+Automatically delete cookies when a user opts-out of a specific category inside cookie settings.
+
+### ✋ Force consent
+
+Block the user from interacting with the page until they consent to your cookie policy.
+
+### 🔁 Re-consent
+
+Ask users to consent again when you update your cookie policy.
+
+### 📝️ Consent records
+
+![Consent Records tab screenshot](./.wordpress-org/screenshot-11.png)
+
+Record user consents to be able to provide proof of consent for auditing purposes.
+
+### 🎛️ Floating settings button
+
+![Floating settings button screenshot](./.wordpress-org/screenshot-7.png)
+
+Add a floating settings button to your website that allows users to change their cookie preferences at any time.
+
+### 🤖 Hide from bots
+
+Automatically parse the user agent to detect bots, crawlers, and webdrivers. If one is detected, you have the option to hide the cookie consent banner from them.
+
+### 🧩 Google Consent Mode (GCM) integration
+
+![Google Consent Mode screenshot](./.wordpress-org/screenshot-9.png)
+
+Integrate with Google Consent Mode (GCM) to adjust how Google tags behave based on the user’s consent preferences. Supports both Google tag (gtag.js) and Google Tag Manager (GTM) implementations.
+
+### ⌨️ Control it programmatically
+
+Programmatically control the plugin. Conditionally show/hide the cookie consent banner and/or the settings modal, accept one (or more) cookie categories, erase cookies, load previously blocked scripts, etc.
+
+## Credits
+
+- Built on top of the amazing [Cookie Consent](https://github.com/orestbida/cookieconsent) JS library by [Orest Bida](https://github.com/orestbida) (licensed under MIT)
+- Flag SVGs by [blade-flags](https://github.com/MohmmedAshraf/blade-flags/), which uses [twemoji](https://github.com/twitter/twemoji) (licensed under MIT)
+
+## License
 
 GNU GPL v2 or later, check the [`LICENSE`](./LICENSE) file.
 
-Toto je bezplatný a open source doplnok WordPress.
+## About Wps
+
+<p align="center">
+    <a href="https://wps.sk/free-trial/?utm_source=pccplugin&utm_medium=ghreadme&utm_campaign=wpplugins">
+        <img width="850" src="./assets/images/banner.png" />
+    </a>
+</p>
+
+This is a free and open source WordPress plugin developed by Wps®. Wps offers Managed WordPress hosting for web professionals designed to optimize the performance, security, and scalability of WordPress websites. With a strong emphasis on reliability, Wps utilizes high-available architecture to ensure your website’s uptime.

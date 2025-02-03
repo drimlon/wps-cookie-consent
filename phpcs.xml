@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         name="WPS-Default"
+         name="Wps-Default"
          xsi:noNamespaceSchemaLocation="./vendor/squizlabs/php_codesniffer/phpcs.xsd">
-    <description>Základná sada pravidiel, ktorú by mali rozšíriť všetky ostatné sady pravidiel WPS.</description>
+    <description>A base ruleset that all other Wps rulesets should extend.</description>
 
     <!-- Exclude some languages and tests -->
     <exclude-pattern>*/phpunit.xml*</exclude-pattern>

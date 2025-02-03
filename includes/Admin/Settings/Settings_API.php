@@ -2,23 +2,23 @@
 /**
  * Settings API.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Admin\Settings;
+namespace Wps\WP\CookieConsent\Admin\Settings;
 
-use WPS\WP\CookieConsent\Database\Exporter;
-use const WPS\WP\CookieConsent\VERSION;
+use Wps\WP\CookieConsent\Database\Exporter;
+use const Wps\WP\CookieConsent\VERSION;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
-use WPS\WP\CookieConsent\Logging\Logger;
-use WPS\WP\CookieConsent\Settings;
-use WPS\WP\CookieConsent\Migrator;
-use WPS\WP\CookieConsent\Emoji;
-use WPS\WP\CookieConsent\Logs;
-use WPS\WP\CookieConsent\Geo_Locator;
-use WPS\WP\CookieConsent\Database\Tables\Consents_Table;
+use Wps\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Logging\Logger;
+use Wps\WP\CookieConsent\Settings;
+use Wps\WP\CookieConsent\Migrator;
+use Wps\WP\CookieConsent\Emoji;
+use Wps\WP\CookieConsent\Logs;
+use Wps\WP\CookieConsent\Geo_Locator;
+use Wps\WP\CookieConsent\Database\Tables\Consents_Table;
 
 use WP_REST_Request;
 use WP_REST_Response;

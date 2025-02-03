@@ -2,16 +2,16 @@
 /**
  * Ask for feedback when the plugin is deactivated.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
-use const WPS\WP\CookieConsent\PLUGIN_DIR;
-use const WPS\WP\CookieConsent\PLUGIN_URL;
+use const Wps\WP\CookieConsent\PLUGIN_DIR;
+use const Wps\WP\CookieConsent\PLUGIN_URL;
 
-use WPS\WP\CookieConsent\Hooks\Actions;
+use Wps\WP\CookieConsent\Hooks\Actions;
 
 use WP_Error;
 use WP_REST_Request;
@@ -106,9 +106,9 @@ class Feedback implements Actions {
 
         <wps-dialog
             id="wps-cookie-consent-feedback-dialog"
-            title="<?php esc_attr_e( 'Pomôžte nám zlepšiť sa!', 'wps-cookie-consent' ); ?>"
+            title="<?php esc_attr_e( 'Help us improve!', 'wps-cookie-consent' ); ?>"
             <?php // phpcs:ignore Generic.Files.LineLength ?>
-            description="<?php esc_attr_e( 'Ceníme si vašu spätnú väzbu. Prosím, dajte nám vedieť, prečo deaktivujete WPS Cookie Consent.', 'wps-cookie-consent' ); ?>"
+            description="<?php esc_attr_e( 'We value your feedback. Please let us know why you’re deactivating Wps Cookie Consent.', 'wps-cookie-consent' ); ?>"
         >
             <div slot="content">
                 <div id="wps-cookie-consent-feedback-root"></div>

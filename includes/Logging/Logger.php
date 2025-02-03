@@ -2,16 +2,16 @@
 /**
  * Logger Interface.
  *
- * @author WPS <info@wps.sk>
- * @copyright 2024 WPS
+ * @author Wps <infowps.sk@gmail.com>
+ * @copyright 2025 Wps
  */
 
-namespace WPS\WP\CookieConsent\Logging;
+namespace Wps\WP\CookieConsent\Logging;
 
-use WPS\WP\CookieConsent\Dependencies\Psr\Log\LogLevel;
-use WPS\WP\CookieConsent\Dependencies\Psr\Log\LoggerInterface;
+use Wps\WP\CookieConsent\Dependencies\Psr\Log\LogLevel;
+use Wps\WP\CookieConsent\Dependencies\Psr\Log\LoggerInterface;
 
-use WPS\WP\CookieConsent\Dependencies\Psr\Log\InvalidArgumentException;
+use Wps\WP\CookieConsent\Dependencies\Psr\Log\InvalidArgumentException;
 
 use RuntimeException;
 use Exception;
