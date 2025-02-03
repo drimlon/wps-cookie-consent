@@ -8,12 +8,12 @@
             "includes/classes"
         ],
         "psr-4": {
-            "WPS\\WP\\CookieConsent\\": "includes/"
+            "Wps\\WP\\CookieConsent\\": "includes/"
         }
     },
     "authors": [
         {
-            "name": "WPS",
+            "name": "Wps",
             "email": "info@wps.sk"
         }
     ],
@@ -51,10 +51,10 @@
     },
     "extra": {
         "mozart": {
-            "dep_namespace": "WPS\\WP\\CookieConsent\\Dependencies\\",
+            "dep_namespace": "Wps\\WP\\CookieConsent\\Dependencies\\",
             "dep_directory": "/includes/Dependencies/",
             "classmap_directory": "/includes/classes/dependencies/",
-            "classmap_prefix": "WPS_Cookie_Consent_",
+            "classmap_prefix": "Wps_Cookie_Consent_",
             "packages": [
                 "league/container",
                 "psr/log"
