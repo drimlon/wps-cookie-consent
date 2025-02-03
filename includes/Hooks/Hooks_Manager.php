@@ -6,7 +6,7 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Hooks;
+namespace Wps\WP\CookieConsent\Hooks;
 
 // Prevent direct access to files
 if ( ! defined( 'ABSPATH' ) ) {
