@@ -6,11 +6,11 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
 use WP_Error;
 
-use WPS\WP\CookieConsent\Utils;
+use Wps\WP\CookieConsent\Utils;
 
 /**
  * Class API.
