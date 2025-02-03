@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "WPS Cookie Consent",
+  "displayName": "Wps Cookie Consent",
   "categories": ["TAG_MANAGEMENT", "PERSONALIZATION"],
   "brand": {
     "id": "brand_dummy",
