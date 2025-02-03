@@ -6,7 +6,7 @@
  * @copyright 2024 WPS
  */
 
-namespace WPS\WP\CookieConsent\Feedback;
+namespace Wps\WP\CookieConsent\Feedback;
 
 use Exception;
 
