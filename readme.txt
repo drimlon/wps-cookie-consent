@@ -12,164 +12,108 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Jednoduchý a prispôsobiteľný banner súhlasu so súbormi cookie, ktorý pomáha dodržiavať zákon EÚ o súboroch cookie GDPR.
 
-== Description ==
+== Popis ==
 
-Wps Cookie Consent makes it easy to add a stylish, customizable cookie consent banner to your website and conditionally load third-party scripts (analytics, performance, targeting, etc.) based on the user-selected preferences to help you comply with EU GDPR cookie law, CCPA, and similar regulations.
+Wps Cookie Consent uľahčuje pridanie štýlového, prispôsobiteľného bannera súhlasu so súbormi cookie na vašu webovú stránku a podmienené načítanie skriptov tretích strán (analytika, výkon, zacielenie atď.) na základe preferencií vybraných používateľom, ktoré vám pomôžu dodržiavať súbor cookie EÚ GDPR zákon
 
-= ⚙️ Fully customizable =
+== Inštalácia ==
 
-Easily modify the cookie consent banner and settings modal text. Pick one of the built-in color presets to match your website’s aesthetic, or adjust the color of individual components via our convenient color picker. Choose from a variety of layouts, positions, and transitions directly from the WordPress dashboard.
+= Automatická inštalácia =
 
-= 🪶 Lightweight =
+Automatická inštalácia je najjednoduchšia možnosť – WordPress sa postará o prenos súborov a nebudete musieť opustiť webový prehliadač.
 
-The plugin is built on top of the Cookie Consent JS library by Orest Bida, a standalone vanilla JavaScript library with no third-party dependencies, that loads blazingly fast and won’t slow down your website.
+1. Prihláste sa do svojho informačného panela WordPress
+2. Prejdite do ponuky „Pluginy“.
+3. Vyhľadajte „Súhlas so súbormi Wps“
+4. Kliknite na „Inštalovať teraz“ a WordPress to odtiaľ prevezme
+5. Aktivujte plugin cez menu “Pluginy” na WordPress
 
-= ♿ Accessible =
+= Manuálna inštalácia =
 
-An a11y friendly plugin — fully accessible and WAI-ARIA compliant.
+1. Nahrajte celý priečinok `wps-cookie-consent` do adresára `wp-content/plugins/`
+2. Aktivujte doplnok cez ponuku „Pluginy“ na WordPress
 
-= 🌐 Translatable =
+= Po aktivácii =
 
-Modify any text in the cookie consent banner and settings modal, and provide translations. Choose the language auto-detection strategy you prefer — either  read the user’s browser language or read the markup of the current page to identify its primary language.
+1. Prejdite na stránku nastavení doplnku (Nastavenia -> Súhlas so súbormi cookie)
+2. Prispôsobte súhlas so súbormi cookie podľa svojich predstáv
+3. Kliknutím na „Uložiť“ uložte zmeny
 
-= 📱 Responsive =
+== Často kladené otázky ==
 
-Fully responsive and mobile-friendly cookie consent banner and settings modal.
+= Je tento doplnok bezplatný? =
 
-= 🙅 Block scripts =
+Áno! Tento plugin je 100% bezplatný a open source.
 
-Control which scripts are loaded based on the user’s preferences. List the URLs of the scripts you’d like to block (both exact matches and regular expressions are supported) and prevent them from running until the user has given consent.
+= Urobí tento doplnok môj web v súlade s GDPR/CCPA? =
 
-= 🧹 Auto-clear cookies =
+Áno, doplnok vám pomôže dosiahnuť súlad s GDPR a CCPA, ak ho nastavíte správne.
 
-Automatically delete cookies when a user opts-out of a specific category inside cookie settings.
+= Ako prispôsobím banner súhlasu so súbormi cookie? =
 
-= ✋ Force consent =
+Banner súhlasu so súbormi cookie môžete prispôsobiť tak, že prejdete na stránku nastavení doplnku. Na wp-admin prejdite do Nastavenia -> Súhlas so súbormi cookie.
 
-Block the user from interacting with the page until they consent to your cookie policy.
+= Ako pridám banner súhlasu so súbormi cookie na svoju webovú stránku? =
 
-= 🔁 Re-consent =
+Stačí nainštalovať a aktivovať plugin. Banner súhlasu so súbormi cookie sa automaticky pridá na vašu webovú stránku. Banner si môžete prispôsobiť tak, že prejdete na stránku nastavení doplnku.
 
-Ask users to consent again when you update your cookie policy.
+= Skenuje doplnok automaticky moju webovú stránku a zobrazí zoznam súborov cookie, ktoré ukladá? =
 
-= 📝 Consent records =
+Nie, doplnok nekontroluje váš web. Súbory cookie, ktoré používate, budete musieť uviesť ručne. Na wp-admin prejdite do Nastavenia -> Súhlas so súbormi cookie, vyberte kartu „Cookies“ a uveďte všetky súbory cookie Analytics a Targeting.
 
-Record user consents to be able to provide proof of consent for auditing purposes.
+= Blokuje doplnok automaticky skripty tretích strán? =
 
-= 🎛️ Floating settings button =
+Nie, doplnok automaticky neblokuje skripty tretích strán. Adresy URL skriptov, ktoré chcete blokovať, budete musieť zadať ručne. Na wp-admin prejdite do Nastavenia -> Súhlas so súbormi cookie, vyberte kartu „Blokovať skripty“ a uveďte všetky skripty tretích strán, ktoré chcete blokovať (podporované regulárne výrazy).
 
-Add a floating settings button to your website that allows users to change their cookie preferences at any time.
+= Môžem tento doplnok integrovať s mojou témou/doplnkom WordPress, aby som zablokoval všetky skripty, ktoré načítava? =
 
-= 🤖 Hide from bots =
+áno. Na wp-admin prejdite do Nastavenia -> Súhlas so súbormi cookie, vyberte kartu „Všeobecné“ a uistite sa, že je povolená možnosť „Skripty stránok“. Potom nastavte `type` značiek skriptov na ``text/plain"` a atribút `data-cookiecategory` na `"analytics", `"targeting"` alebo `"preferences"`.
 
-Automatically parse the user agent to detect bots, crawlers, and webdrivers. If one is detected, you have the option to hide the cookie consent banner from them.
+Napríklad `<script type="text/plain" data-cookiecategory="analytics" src="analytics.js" defer></script>`
 
-= 🧩 Google Consent Mode (GCM) integration =
+Ďalšie informácie nájdete v sekcii [„Blocking scripts“ na našej wiki](https://github.com/drimlon/wps-cookie-consent/wiki/).
 
-Integrate with Google Consent Mode (GCM) to adjust how Google tags behave based on the user’s consent preferences. Supports both Google tag (gtag.js) and Google Tag Manager (GTM) implementations.
+= Môžem použiť doplnok na súhlas so súbormi cookie programovo? Existujú nejaké ďalšie možnosti/funkcie? =
 
-= ⌨️ Control it programmatically =
+Ďalšie informácie o doplnku Wps Cookie Consent nájdete [na našej wiki](https://github.com/drimlon/wps-cookie-consent/wiki/).
 
-Programmatically control the plugin. Conditionally show/hide the cookie consent banner and/or the settings modal, accept one (or more) cookie categories, erase cookies, load previously blocked scripts, etc.
+= Môžem exportovať/importovať nastavenia pluginu? =
 
-== Installation ==
+Áno, môžete exportovať/importovať nastavenia pluginu. Na wp-admin prejdite na Nastavenia -> Súhlas s cookies a použite tlačidlá „Exportovať nastavenia“ a „Importovať nastavenia“.
 
-= Automatic installation =
+= Podporuje doplnok režim súhlasu Google (GCM)? =
 
-Automatic installation is the easiest option — WordPress will handle the file transfer, and you won’t need to leave your web browser.
+Áno, doplnok podporuje režim súhlasu Google (GCM). Na wp-admin prejdite do Nastavenia -> Súhlas so súbormi cookie, vyberte kartu „Režim súhlasu“ a povoľte možnosť „Režim súhlasu Google v2 (GCM)“. Potom vyberte implementáciu značky Google (gtag.js) alebo Správcu značiek Google (GTM) a podľa toho ju nakonfigurujte.
 
-1. Log in to your WordPress dashboard
-2. Navigate to the “Plugins” menu
-3. Search for “Wps Cookie Consent”
-4. Click “Install Now” and WordPress will take it from there
-5. Activate the plugin through the “Plugins” menu on WordPress
+= Prečo sa na mojej webovej stránke nezobrazuje banner súhlasu so súbormi cookie? =
 
-= Manual installation =
+Uistite sa, že je buď povolená možnosť „Autorun“ na stránke nastavení doplnku, alebo že ste manuálne zavolali metódu `wpsCookieConsent.show()`.
 
-1. Upload the entire `wps-cookie-consent` folder to the `wp-content/plugins/` directory
-2. Activate the plugin through the “Plugins” menu on WordPress
+= Prečo sa moje zmeny neuložia? =
 
-= After activation =
+Uistite sa, že ste klikli na tlačidlo „Uložiť“ na stránke nastavení doplnku.
 
-1. Go to the plugin settings page (Settings -> Cookie Consent)
-2. Customize the cookie consent to your liking
-3. Click “Save” to save your changes
+= Prečo sa banner súhlasu so súbormi cookie stále zobrazuje aj po prijatí súborov cookie? =
 
-== Frequently Asked Questions ==
+Uistite sa, že ste na stránke nastavení doplnku nastavili možnosť „Doména cookie“ na správnu doménu.
 
-= Is this plugin free? =
+= Kde môžem nahlásiť akékoľvek chyby a/alebo požiadať o ďalšie funkcie? =
 
-Yes! This plugin is 100% free and open source.
+Ak ste si všimli nejaké chyby alebo by ste chceli požiadať o ďalšie funkcie z doplnku, [podajte problém](https://github.com/drimlon/wps-cookie-consent/issues/).
 
-= Will this plugin make my website GDPR/CCPA compliant? =
+== Snímky obrazovky ==
 
-Yes, the plugin will help you be GDPR and CCPA compliant if you set it right.
-
-= How do I customize the cookie consent banner? =
-
-You can customize the cookie consent banner by going to the plugin settings page. On wp-admin, go to Settings -> Cookie Consent.
-
-= How do I add a cookie consent banner to my website? =
-
-Just install and activate the plugin. The cookie consent banner will automatically be added to your website. You can customize the banner by going to the plugin settings page.
-
-= Does the plugin automatically scan my website to list the cookies it stores? =
-
-No, the plugin doesn’t scan your website. You will have to manually list the cookies you use. On wp-admin, go to Settings -> Cookie Consent, select the “Cookies” tab and list all Analytics and Targeting cookies.
-
-= Does the plugin automatically block third-party scripts? =
-
-No, the plugin doesn’t automatically block third-party scripts. You will have to manually list the URLs of the scripts you want to block. On wp-admin, go to Settings -> Cookie Consent, select the “Block Scripts” tab and list all third-party scripts you want to block (regular expressions supported).
-
-= Can I integrate this plugin with my WordPress theme/plugin to block any scripts it loads? =
-
-Yes. On wp-admin, go to Settings -> Cookie Consent, select the “General” tab and make sure the “Page Scripts” option is enabled. Then, set the `type` of your scripts tags to `"text/plain"` and set a `data-cookiecategory` attribute to `"analytics"`, `"targeting"` or `"preferences"`.
-
-For example, `<script type="text/plain" data-cookiecategory="analytics" src="analytics.js" defer></script>`
-
-For more information, refer to the [“Blocking scripts” section of our wiki](https://github.com/drimlon/wps-cookie-consent/wiki/).
-
-= Can I use the cookie consent plugin programmatically? Are there any other options/features? =
-
-For more information about the Wps Cookie Consent plugin, refer [to our wiki](https://github.com/drimlon/wps-cookie-consent/wiki/).
-
-= Can I export/import the plugin settings? =
-
-Yes, you can export/import the plugin settings. On wp-admin, go to Settings -> Cookie Consent, and use the “Export Settings” and “Import Settings” buttons.
-
-= Does the plugin support Google Consent Mode (GCM)? =
-
-Yes, the plugin supports Google Consent Mode (GCM). On wp-admin, go to Settings -> Cookie Consent, select the “Consent Mode” tab and enable the “Google Consent Mode v2 (GCM)” option. Then, select either the Google tag (gtag.js) or the Google Tag Manager (GTM) implementation, and configure it accordingly.
-
-= Why is the cookie consent banner not showing on my website? =
-
-Make sure that either the “Autorun” option is enabled on the plugin settings page, or that you manually call the `wpsCookieConsent.show()` method.
-
-= Why are my changes not getting saved? =
-
-Make sure you have clicked the “Save” button on the plugin settings page.
-
-= Why does the cookie consent banner keep showing even after I have accepted the cookies? =
-
-Make sure you have set the “Cookie Domain” option to the correct domain on the plugin settings page.
-
-= Where can I report any bugs and/or request additional features? =
-
-If you have spotted any bugs, or would like to request additional features from the plugin, please [file an issue](https://github.com/drimlon/wps-cookie-consent/issues/).
-
-== Screenshots ==
-
-1. General settings
-2. Font and colors
-3. Cookie tables
-4. Translations
-5. Consent modal
-6. Settings modal
-7. Floating button
-8. Google Consent Mode
-9. Google Tag Manager template
-10. Blocked scripts
-11. Consent records
+1. Všeobecné nastavenia
+2. Písmo a farby
+3. Tabuľky cookies
+4. Preklady
+5. Spôsob súhlasu
+6. Modálne nastavenia
+7. Plávajúce tlačidlo
+8. Režim súhlasu Google
+9. Šablóna Správcu značiek Google
+10. Blokované skripty
+11. Záznamy o súhlase
 
 == Changelog ==
 
@@ -180,7 +124,7 @@ If you have spotted any bugs, or would like to request additional features from 
 * Fix an issue where closing the settings modal without saving would cause the necessary cookies toggle to be disabled
 * Update the cookieconsent library to version 2.9.2
 
-= 1.7.0: Nov 18, 2024 =
+= 1.6.1: Nov 18, 2024 =
 
 * Update language codes to be consistent with locale codes used in WordPress
 

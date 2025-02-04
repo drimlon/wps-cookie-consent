@@ -989,11 +989,6 @@ msgid "Search regions"
 msgstr ""
 
 #: public/bundle.admin.js:89
-#: src/admin/components/TagManagerGuide.js:27
-msgid "Adding the Google Tag Manager template"
-msgstr ""
-
-#: public/bundle.admin.js:89
 #: src/admin/components/TagManagerGuide.js:37
 msgid "Community Template Gallery"
 msgstr ""
