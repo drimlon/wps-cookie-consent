@@ -4,11 +4,6 @@
 
 # Wps Cookie Consent
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
-[![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
-[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
-[![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/wps-cookie-consent)](https://wordpress.org/plugins/wps-cookie-consent/)
-
 Wps Cookie Consent uľahčuje pridanie štýlového, prispôsobiteľného bannera súhlasu so súbormi cookie na vašu webovú stránku a podmienené načítanie skriptov tretích strán (analytika, výkon, zacielenie atď.) na základe preferencií vybraných používateľom, ktoré vám pomôžu dodržiavať súbor cookie EÚ GDPR zákon
 
 ![Cookie consent plugin screenshot](./.wordpress-org/screenshot-5.png)
